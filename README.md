@@ -9,6 +9,9 @@
 
 <p align="center">Frontend Developer, building Open Source 🤍 websites. I like learning new things and programming glad 👨‍💻 to meet anyone. I wish you success and thanks 👍 for visiting my profile</p><br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=codlipa&show_icons=true&theme=onedark" width="480" align="left">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&theme=onedark"> <br>
-<img src="https://github-profile-trophy.vercel.app/?username=codlipa&column=7&theme=onedark&no-frame=true" width="850">
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=codlipa&show_icons=true&theme=onedark">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&theme=onedark">
+  <img src="https://github-profile-trophy.vercel.app/?username=codlipa&column=7&theme=onedark&no-frame=true" width="100%">
+  <img src="https://activity-graph.herokuapp.com/graph?username=codlipa&theme=github" width="100%">
+</div>
