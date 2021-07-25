@@ -12,5 +12,4 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=codlipa&show_icons=true&theme=onedark">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&theme=onedark">
-  <img src="https://activity-graph.herokuapp.com/graph?username=codlipa&theme=github" width="100%">
 </div>
