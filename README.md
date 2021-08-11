@@ -1,4 +1,4 @@
-<h2 align="center">I am ⚡ Labuzov ⚡</h2>
+<h2 align="center">Hi there <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="30"> I am <a href="#">Dmitry Labuzov</a></h2>
 
 <div align="center">
   <a href="https://codepen.io/codlipa"><img alt="CodePen" src="https://img.shields.io/badge/codepen-000000?style=for-the-badge&logo=codepen&logoColor=white"></a>
@@ -12,4 +12,5 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=codlipa&show_icons=true&theme=onedark">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&theme=onedark">
+  <img src="https://activity-graph.herokuapp.com/graph?username=codlipa&theme=github" width="100%">
 </div>
