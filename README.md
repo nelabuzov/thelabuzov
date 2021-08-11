@@ -1,4 +1,4 @@
-<h2 align="center">I am <a href="#">⚡ Labuzov ⚡</a></h2>
+<h2 align="center">I am ⚡ Labuzov ⚡</h2>
 
 <div align="center">
   <a href="https://codepen.io/codlipa"><img alt="CodePen" src="https://img.shields.io/badge/codepen-000000?style=for-the-badge&logo=codepen&logoColor=white"></a>
