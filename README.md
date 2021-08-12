@@ -7,7 +7,7 @@
   <a href="https://twitter.com/codlipa"><img alt="Twitter" src="https://img.shields.io/badge/twitter-1DA1F2?&style=for-the-badge&logo=twitter&logoColor=white"></a>
 </div> <br>
 
-<p align="center">Working with websites & writing about it 💛 I will be helpful posting unique content.</p><br>
+<p align="center">Daily working with websites & writing about it 💛 I'm motivated member of community and #100DaysOfCode 🔥</p><br>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=codlipa&show_icons=true&theme=onedark">
