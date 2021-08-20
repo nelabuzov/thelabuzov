@@ -1,4 +1,4 @@
-<h2 align="center">Hi there <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="30"> I am <a href="#">Dmitry Labuzov</a></h2>
+<h2 align="center">Hi there <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="30"> I am <a href="/">Dmitry Labuzov</a></h2>
 
 <div align="center">
   <a href="https://codepen.io/codlipa"><img alt="CodePen" src="https://img.shields.io/badge/codepen-000000?style=for-the-badge&logo=codepen&logoColor=white"></a>
