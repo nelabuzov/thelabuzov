@@ -10,8 +10,8 @@
 <p align="center">Daily working with websites & writing about it 💛 I'm motivated member of community and <a href="https://twitter.com/search?q=%23100DaysOfCode&src=hashtag_click">#100DaysOfCode</a> 🔥</p><br>
 
 <div align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&hide_border=true&theme=onedark">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api?username=codlipa&show_icons=true&hide_border=true&theme=onedark">
-  <img width="40%" src="https://github-readme-streak-stats.herokuapp.com/?user=codlipa&hide_border=true&theme=onedark">
+<!--   <img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&hide_border=true&theme=onedark"> -->
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=codlipa&show_icons=true&hide_border=true&theme=onedark">
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=codlipa&hide_border=true&theme=onedark">
   <img src="https://activity-graph.herokuapp.com/graph?username=codlipa&hide_border=true&theme=github" width="100%">
 </div>
