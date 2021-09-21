@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://codepen.io/codlipa"><img alt="CodePen" src="https://img.shields.io/badge/codepen-000000?style=for-the-badge&logo=codepen&logoColor=white"></a>
-  <a href="https://www.github.com/codlipa"><img alt="GitHub" src="https://img.shields.io/badge/github-1F1E1E?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://www.facebook.com/codlipa"><img alt="Facebook" src="https://img.shields.io/badge/facebook-1178F2?style=for-the-badge&logo=facebook&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/codlipa"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-0A66C2?&style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="https://twitter.com/codlipa"><img alt="Twitter" src="https://img.shields.io/badge/twitter-1DA1F2?&style=for-the-badge&logo=twitter&logoColor=white"></a>
 </div> <br>
