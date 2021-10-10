@@ -1,0 +1,29 @@
+@use '../util' as *;
+
+h1, h2, h3, p { margin: 0 }
+
+a, a:visited, a:active {
+	text-decoration: none;
+	color: var(--aqua);
+}
+
+a:hover, #click { 
+	cursor: url('../images/tools/link.cur'), auto;
+	text-decoration: line-through;
+}
+
+.section {
+
+	&__links {
+
+		&:first-child a {
+			text-decoration-color: var(--aqua);
+			text-shadow: 0 0 rem(10) var(--cherry);
+		}
+
+		&:last-child a {
+			text-decoration-color: var(--cherry);
+			text-shadow: 0 0 rem(10) var(--aqua);
+		}
+	}
+}

@@ -1,0 +1,185 @@
+@use '../util' as *;
+
+// Section
+.section {
+	
+	.one & { padding: rem(500) 0 0 rem(50);
+
+		@include breakpoint(large) { padding: 0;
+	
+			&__title { font-size: rem(150) }
+	
+			&__subtitle {
+				font-size: rem(46);
+				margin-bottom: rem(55);
+			}
+		}
+	}
+
+	&__scroll {
+		overflow: visible;
+		max-width: rem(1140);
+	
+		@include breakpoint(large) { overflow: scroll }
+	
+		&::-webkit-scrollbar { display: none }
+	}
+
+	&__title {
+		position: relative;
+		font-size: rem(125);
+		margin: rem(5) 0;
+		transform: translate(0%, 0%);
+		line-height: .8;
+
+		&:before, &:after {
+			content: 'codlipa';
+			position: absolute;
+			left: 0;
+			opacity: .8;
+		}
+
+		&:after {
+			color: var(--cherry);
+			z-index: -2;
+		} 
+
+		&:before {
+			color: var(--aqua);
+			z-index: -1;
+		}
+
+		&:hover {
+
+			&:before, &:after { animation: glitch var(--transition-min) cubic-bezier(.25, .46, .45, .94) infinite }
+
+			&:after { animation-direction: reverse }
+		}
+	}
+
+	&__subtitle {
+		font-size: rem(36);
+		margin-bottom: rem(15);
+		background-image: linear-gradient(var(--cherry), var(--aqua));
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+	}
+}
+
+@keyframes glitch {
+	0% { transform: translate(0) }
+
+	20% { transform: translate(rem(-5), rem(5)) }
+
+	40% { transform: translate(rem(-5), rem(-5)) }
+
+	60% { transform: translate(rem(5), rem(5)) }
+
+	80% { transform: translate(rem(5), rem(-5)) }
+
+	100% { transform: translate(0) }
+}
+
+// WinBox
+#about__content p:not(:last-child) { margin: rem(25) 0 }
+
+.progress {
+
+	&__box { min-width: 80%;
+
+		span {
+			display: inline-block;
+			font-size: rem(26);
+		}
+	}
+
+	&__bar,
+	&__bar span {
+		min-width: 100%;
+		border-radius: rem(10);
+	}
+
+	&__bar {
+		position: relative;
+		margin: rem(20) 0;
+		min-height: rem(20);
+		background-color: var(--light-gray);
+
+		span {
+			position: absolute;
+			min-height: 100%;
+			transform: scaleX(0);
+			transform-origin: left;
+			background-color: var(--aqua);
+			box-shadow: 0 0 rem(10) var(--aqua);
+			animation: progress var(--transition-min) forwards;
+		}
+
+		&.html span { min-width: 90% }
+
+		&.css span { min-width: 85% }
+
+		&.javascript span { min-width: 70% }
+
+		&.tailwind span { min-width: 75% }
+
+		&.bootstrap span { min-width: 65% }
+
+		&.git span { min-width: 80% }
+	}
+}
+
+@keyframes progress {
+	100% { transform: scaleX(1) }
+}
+
+// Hero
+.hero {
+	position: relative;
+	min-height: 100vh;
+
+	@include breakpoint(large) {
+		display: flex;
+		align-items: flex-end;
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		left: rem(-70);
+		bottom: rem(58);
+		min-height: rem(392);
+		min-width: rem(638);
+		transform: scaleX(-1) rotate(90deg);
+		background: url('../images/console.webp') no-repeat 50% / contain;
+
+		@include breakpoint(medium) { left: rem(250) }
+
+		@include breakpoint(large) {
+			position: relative;
+			left: 0;
+			bottom: rem(-32.5);
+			min-width: rem(738);
+			transform: rotate(0);
+		}
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		left: rem(100);
+		bottom: rem(506);
+		min-width: rem(500);
+		min-height: rem(325);
+		transform: scaleX(-1);
+		background: url('../images/avatar.webp') no-repeat 50% / contain;
+
+		@include breakpoint(medium) { left: rem(420) }
+
+		@include breakpoint(large) {
+			left: 26%;
+			bottom: rem(250);
+			min-height: rem(425);
+		}
+	}
+}
