@@ -53,25 +53,28 @@
 					<div class="container">
 
 						<!-- Section -->
-						<div class="section">
-							<div class="section__links">
+						<section class="section">
+							<div class="links">
 								<a id="about" href="#">About</a>
 								<a id="progress" href="#">Progress</a>
 							</div>
 
 							<main>
-								<h1 class="section__title">codlipa</h1>
-								<h2 class="section__subtitle">I'm a <span id="animate"></span></h2>
-								<h3 class="section__text">Find me online:</h3>
-								<div class="section__links">
-									<a href="https://github.com/codlipa">GitHub</a>
-									<a href="https://codepen.io/codlipa">CodePen</a>
-									<a href="https://twitter.com/codlipa">Twitter</a>
-									<a href="https://linkedin.com/in/codlipa">LinkedIn</a>
-									<a href="https://facebook.com/codlipa">Facebook</a>
+								<h1 class="title">codlipa</h1>
+								<h2 class="subtitle subtitle--gradient">I'm a <span id="animate"></span></h2>
+
+								<div class="social">
+									<h3 class="subtitle--small">Find me online:</h3>
+									<div class="links--vertical">
+										<a href="https://github.com/codlipa">GitHub</a>
+										<a href="https://codepen.io/codlipa">CodePen</a>
+										<a href="https://twitter.com/codlipa">Twitter</a>
+										<a href="https://linkedin.com/in/codlipa">LinkedIn</a>
+										<a href="https://facebook.com/codlipa">Facebook</a>
+									</div>
 								</div>
 							</main>
-						</div>
+						</section>
 						<!-- / Section -->
 
 						<!-- Hero -->
@@ -86,114 +89,133 @@
 				<div class="slide two">
 					<div class="container container__portfolio">
 
-						<!-- Contact -->
-						<form role="form" action="./index.php" method="post">
-							<div class="form-group">
-								<label for="InputName">Nom</label>
-								<div class="input-group">
-									<input type="text" class="form-control" name="name" id="InputName" placeholder="Nom" required>
-									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="InputEmail">Email</label>
-								<div class="input-group">
-									<input type="email" class="form-control" id="InputEmail" name="email" placeholder="Email" required>
-									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="InputEmail">Sujet</label>
-								<div class="input-group">
-									<input type="text" class="form-control" id="InputEmail" name="subject" placeholder="Sujet" required>
-									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="InputMessage">Message</label>
-								<div class="input-group">
-									<textarea name="message" id="InputMessage" class="form-control" rows="5" required></textarea>
-									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-								</div>
-
+						<!-- Timeline -->
+						<div class="timeline scroll">
+							<div class="timeline__component">
+								<div class="timeline__date timeline__date--right">October 2016</div>
 							</div>
 
-							<div class="form-group">
-								<label for="InputReal">5 + 10? (Spam Checker)</label>
-								<div class="input-group">
-									<input type="text" name="human" class="form-control" name="InputReal" id="InputReal" required>
-									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-								</div>
+							<div class="timeline__middle">
+								<div class="timeline__point"></div>
 							</div>
 
-							<input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-left">
-						</form>
-						<!-- / Contact -->
+							<div class="timeline__component timeline__component--bg">
+								<h2 class="subtitle">SPE STI NUST MISIS</h2>
+								<p class="paragraph">
+									On the course I got acquainted with the FrontEnd, began to learn the basics & found my favorite job 🔥
+								</p>
+							</div>
+
+							<div class="timeline__component timeline__component--bg">
+								<h2 class="subtitle">OPC STI NUST MISIS</h2>
+								<p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+								<p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							</div>
+
+							<div class="timeline__middle">
+								<div class="timeline__point"></div>
+							</div>
+
+							<div class="timeline__component">
+								<div class="timeline__date">October 12, 2021</div>
+							</div>
+
+							<div class="timeline__component">
+								<div class="timeline__date timeline__date--right">October 12, 2021</div>
+							</div>
+
+							<div class="timeline__middle">
+								<div class="timeline__point"></div>
+							</div>
+
+							<div class="timeline__component timeline__component--bg">
+								<h2 class="subtitle">Lorem, ipsum dolor.</h2>
+								<p class="paragraph">
+									Sunt nobis quos delectus repellat vel, quaerat voluptatum temporibus amet facilis rerum optio saepe animi distinctio nam dignissimos blanditiis laborum tenetur veniam!
+								</p>
+							</div>
+
+							<div class="timeline__component timeline__component--bottom timeline__component--bg">
+								<h2 class="subtitle">Lorem, ipsum dolor.</h2>
+								<p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+								<p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							</div>
+
+							<div class="timeline__middle">
+								<div class="timeline__point"></div>
+								<div class="timeline__point timeline__point--bottom"></div>
+							</div>
+
+							<div class="timeline__component timeline__component--bottom">
+								<div class="timeline__date">October 12, 2021</div>
+							</div>
+						</div>
+						<!-- / Timeline -->
 
 						<!-- Section -->
-						<div class="section section__scroll">
+						<section class="section scroll">
 							<div class="portfolio">
-								<a class="portfolio__link animated delay-1" data-animation="fadeIn" aria-label="Item 1" href="https://codlipa.github.io/websites/mw" target="blank">
+								<a class="links__item animated delay-1" data-animation="fadeIn" aria-label="Item 1" href="https://codlipa.github.io/websites/mw" target="blank">
 									<div class="portfolio__image item-1"></div>
 								</a>
 
-								<a class="portfolio__link animated delay-2" data-animation="fadeIn" aria-label="Item 2" href="https://codlipa.github.io/websites/elena" target="blank">
+								<a class="links__item animated delay-2" data-animation="fadeIn" aria-label="Item 2" href="https://codlipa.github.io/websites/elena" target="blank">
 									<div class="portfolio__image item-2"></div>
 								</a>
 
-								<a class="portfolio__link animated delay-3" data-animation="fadeIn" aria-label="Item 3" href="https://codlipa.github.io/websites/marble" target="blank">
+								<a class="links__item animated delay-3" data-animation="fadeIn" aria-label="Item 3" href="https://codlipa.github.io/websites/marble" target="blank">
 									<div class="portfolio__image item-3"></div>
 								</a>
 
-								<a class="portfolio__link animated delay-4" data-animation="fadeIn" aria-label="Item 4" href="https://codlipa.github.io/websites/education" target="blank">
+								<a class="links__item animated delay-4" data-animation="fadeIn" aria-label="Item 4" href="https://codlipa.github.io/websites/education" target="blank">
 									<div class="portfolio__image item-4"></div>
 								</a>
 
-								<a class="portfolio__link animated delay-5" data-animation="fadeIn" aria-label="Item 5" href="https://codlipa.github.io/websites/oathjar" target="blank">
+								<a class="links__item animated delay-5" data-animation="fadeIn" aria-label="Item 5" href="https://codlipa.github.io/websites/oathjar" target="blank">
 									<div class="portfolio__image item-5"></div>
 								</a>
 
-								<a class="portfolio__link animated delay-6" data-animation="fadeIn" aria-label="Item 6" href="https://codlipa.github.io/websites/hugo" target="blank">
+								<a class="links__item animated delay-6" data-animation="fadeIn" aria-label="Item 6" href="https://codlipa.github.io/websites/hugo" target="blank">
 									<div class="portfolio__image item-6"></div>
 								</a>
 
-								<div class="portfolio__link animated delay-7" data-animation="fadeIn" aria-label="Item 7">
+								<div class="links__item animated delay-7" data-animation="fadeIn" aria-label="Item 7">
 									<div class="portfolio__image soon"></div>
 								</div>
 
-								<div class="portfolio__link animated delay-8" data-animation="fadeIn" aria-label="Item 8">
+								<div class="links__item animated delay-8" data-animation="fadeIn" aria-label="Item 8">
 									<div class="portfolio__image soon"></div>
 								</div>
 
-								<div class="portfolio__link animated delay-9" data-animation="fadeIn" aria-label="Item 9">
+								<div class="links__item animated delay-9" data-animation="fadeIn" aria-label="Item 9">
 									<div class="portfolio__image soon"></div>
 								</div>
 
-								<div class="portfolio__link animated delay-10" data-animation="fadeIn" aria-label="Item 10">
+								<div class="links__item animated delay-10" data-animation="fadeIn" aria-label="Item 10">
 									<div class="portfolio__image soon"></div>
 								</div>
 
-								<div class="portfolio__link animated delay-11" data-animation="fadeIn" aria-label="Item 11">
+								<div class="links__item animated delay-11" data-animation="fadeIn" aria-label="Item 11">
 									<div class="portfolio__image soon"></div>
 								</div>
 
-								<div class="portfolio__link animated delay-12" data-animation="fadeIn" aria-label="Item 12">
+								<div class="links__item animated delay-12" data-animation="fadeIn" aria-label="Item 12">
 									<div class="portfolio__image soon"></div>
 								</div>
 
-								<div class="portfolio__link animated delay-13" data-animation="fadeIn" aria-label="Item 13">
+								<div class="links__item animated delay-13" data-animation="fadeIn" aria-label="Item 13">
 									<div class="portfolio__image soon"></div>
 								</div>
 
-								<div class="portfolio__link animated delay-14" data-animation="fadeIn" aria-label="Item 14">
+								<div class="links__item animated delay-14" data-animation="fadeIn" aria-label="Item 14">
 									<div class="portfolio__image soon"></div>
 								</div>
 
-								<div class="portfolio__link animated delay-15" data-animation="fadeIn" aria-label="Item 15">
+								<div class="links__item animated delay-15" data-animation="fadeIn" aria-label="Item 15">
 									<div class="portfolio__image soon"></div>
 								</div>
 							</div>
-						</div>
+						</section>
 						<!-- / Section -->
 
 					</div>
@@ -207,55 +229,43 @@
 		<!-- WinBox -->
 		<div class="hidden">
 			<div id="about__content">
-				<h2>About Me</h2>
-				<p>Hello, my name is Dmitry Labuzov and I have been programming websites for many years</p>
-				<p>Some of the languages that I am fluent in include HTML, CSS and light JavaScript</p>
+				<h2 class="subtitle">About Me</h2>
+				<p class="paragraph">Hello, my name is Dmitry Labuzov and I have been programming websites for many years</p>
+				<p class="paragraph">Some of the languages that I am fluent in include HTML, CSS and light JavaScript</p>
 			</div>
 
 			<div id="progress__content">
-				<div class="progress__outer">
+				<div class="progress__inner">
 
 					<!-- Boxes -->
 					<div class="progress__box">
-						<span>HTML - 90%</span>
-						<div class="progress__bar html">
-							<span></span>
-						</div>
+						<h3 class="subtitle--small">HTML - 90%</h3>
+						<div class="progress__bar html"><span></span></div>
 					</div>
 
 					<div class="progress__box">
-						<span>CSS - 85%</span>
-						<div class="progress__bar css">
-							<span></span>
-						</div>
+						<h3 class="subtitle--small">CSS - 85%</h3>
+						<div class="progress__bar css"><span></span></div>
 					</div>
 
 					<div class="progress__box">
-						<span>JavaScript - 70%</span>
-						<div class="progress__bar javascript">
-							<span></span>
-						</div>
+						<h3 class="subtitle--small">JavaScript - 70%</h3>
+						<div class="progress__bar javascript"><span></span></div>
 					</div>
 
 					<div class="progress__box">
-						<span>Tailwind - 75%</span>
-						<div class="progress__bar tailwind">
-							<span></span>
-						</div>
+						<h3 class="subtitle--small">Tailwind - 75%</h3>
+						<div class="progress__bar tailwind"><span></span></div>
 					</div>
 
 					<div class="progress__box">
-						<span>Bootstrap - 65%</span>
-						<div class="progress__bar bootstrap">
-							<span></span>
-						</div>
+						<h3 class="subtitle--small">Bootstrap - 65%</h3>
+						<div class="progress__bar bootstrap"><span></span></div>
 					</div>
 
 					<div class="progress__box">
-						<span>Git - 80%</span>
-						<div class="progress__bar git">
-							<span></span>
-						</div>
+						<h3 class="subtitle--small">Git - 80%</h3>
+						<div class="progress__bar git"><span></span></div>
 					</div>
 					<!-- / Boxes -->
 

@@ -21,41 +21,55 @@ body {
 	@include breakpoint(large) { overflow: hidden }
 }
 
-.wb-body {
-	background-color: var(--dark-gray);
-	color: var(--white);
-	padding: 20px;
-}
+.title, .subtitle { cursor: url('../images/tools/busy.cur'), auto }
 
-#click {
-	width: 100%;
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: fixed;
-	z-index: 1;
-	background-color: var(--black);
+.title {
+	position: relative;
+	font-size: rem(125);
+	margin: rem(5) 0;
+	transform: translate(0%, 0%);
+	line-height: .8;
 
-	&::after {
-		content: '';
-		width: rem(600);
-		min-height: rem(335);
-		background: url('../images/loading.webp') no-repeat 50% / contain;
+	&:before, &:after {
+		content: 'codlipa';
+		position: absolute;
+		left: 0;
+		opacity: .8;
+	}
+
+	&:after {
+		color: var(--cherry);
+		z-index: -2;
+	} 
+
+	&:before {
+		color: var(--aqua);
+		z-index: -1;
+	}
+
+	&:hover {
+
+		&:before, &:after { animation: glitch var(--transition-min) cubic-bezier(.25, .46, .45, .94) infinite }
+
+		&:after { animation-direction: reverse }
 	}
 }
 
-.section {
+.subtitle {
+	font-size: rem(36);
+	margin-bottom: rem(25);
 
-	&__title, &__subtitle { cursor: url('../images/tools/busy.cur'), auto }
+	@include breakpoint(large) { font-size: rem(38) }
 
-	&__links { display: inline-flex;
+	&--small {
+		font-size: rem(30);
+	}
 
-		&:first-child a { color: var(--cherry);
-	
-			&:not(:last-child) { padding-right: rem(20) }
-		}
-
-		&:last-child { flex-direction: column }
+	&--gradient {
+		background-image: linear-gradient(var(--cherry), var(--aqua));
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
 	}
 }
+
+.paragraph:not(:last-child) { margin-bottom: rem(25) }

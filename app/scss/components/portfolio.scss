@@ -1,58 +1,50 @@
 @use '../util' as *;
 
-// Form
-.contact {
+// Timeline
+.timeline {
+	margin: 0 auto;
+	padding: rem(50) 0;
+	display: grid;
+	background-color: var(--dark-gray);
+	grid-template-columns: 1fr rem(3) 1fr;
 
-	&__title {
-		margin-top: 100px;
-		color: #fff;
-		text-transform: uppercase;
-		transition: all 4s ease-in-out;
-	
-		& h1 {
-			font-size: 32px;
-			line-height: 10px;
+	&__component {
+		margin: rem(25);
+		margin-top: 0;
+
+		&--bg {
+			padding: rem(25);
+			background: var(--light-gray);
+			box-shadow: 0 0 rem(5) var(--light-gray);
+			border-radius: rem(10);
 		}
-	
-		& h2 {
-			font-size: 16px;
+
+		&--bottom { margin-bottom: 0 }
+	}
+
+	&__middle, &__point {
+		background-color: var(--aqua);
+		box-shadow: 0 0 rem(10) var(--aqua);
+	}
+
+	&__middle { position: relative }
+
+	&__point {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: rem(15);
+		height: rem(15);
+		border-radius: 50%;
+
+		&--bottom {
+			top: initial;
+			bottom: 0;
 		}
 	}
 
-	form {
-		margin-top: 50px;
-		transition: all 4s ease-in-out;
-
-		& .submit {
-			background: #ff5722;
-			border-color: transparent;
-			color: #fff;
-			font-size: 20px;
-			font-weight: bold;
-			letter-spacing: 2px;
-			height: 50px;
-			margin-top: 20px;
-
-			&:hover {
-				background-color: #f44336;
-				cursor: pointer;
-			}
-		}
-	}
-
-	.form__control {
-		width: 600px;
-		background: transparent;
-		border: none;
-		outline: none;
-		border-bottom: 1px solid gray;
-		color: #fff;
-		margin-bottom: 16px;
-	}
-
-	input {
-		height: 45px;
-	}
+	&__date--right { text-align: right }
 }
 
 // Portfolio
@@ -60,17 +52,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	align-content: flex-start;
-
-	@include breakpoint(large) { max-height: 100vh }
-
-	&__link {
-		min-width: 100%;
-		min-height: rem(250);
-		overflow: hidden;
-		flex-grow: 1;
-
-		@include breakpoint(medium) { min-width: rem(380) }
-	}
 
 	&__image, .soon {
 		background: no-repeat 50% / cover;

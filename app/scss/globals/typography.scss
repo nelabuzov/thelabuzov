@@ -4,7 +4,8 @@ h1, h2, h3, p { margin: 0 }
 
 a, a:visited, a:active {
 	text-decoration: none;
-	color: var(--aqua);
+	text-shadow: 0 0 rem(10) var(--cherry);
+	color: var(--cherry);
 }
 
 a:hover, #click { 
@@ -12,18 +13,30 @@ a:hover, #click {
 	text-decoration: line-through;
 }
 
-.section {
+.links {
 
-	&__links {
+	&__item {
+		min-width: 100%;
+		min-height: rem(250);
+		overflow: hidden;
+		flex-grow: 1;
 
-		&:first-child a {
-			text-decoration-color: var(--aqua);
-			text-shadow: 0 0 rem(10) var(--cherry);
-		}
+		@include breakpoint(medium) { min-width: rem(380) }
+	}
 
-		&:last-child a {
+	&--vertical {
+		display: inline-flex;
+		flex-direction: column;
+		
+		a {
 			text-decoration-color: var(--cherry);
 			text-shadow: 0 0 rem(10) var(--aqua);
+			color: var(--aqua);
 		}
+	}
+
+	a { text-decoration-color: var(--aqua);
+
+		&:not(:last-child) { padding-right: rem(20) }
 	}
 }

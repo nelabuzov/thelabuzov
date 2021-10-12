@@ -7,62 +7,10 @@
 
 		@include breakpoint(large) { padding: 0;
 	
-			&__title { font-size: rem(150) }
-	
-			&__subtitle {
-				font-size: rem(46);
-				margin-bottom: rem(55);
-			}
+			.suptitle { font-size: rem(150) }
+
+			.social { margin-top: rem(40) }
 		}
-	}
-
-	&__scroll {
-		overflow: visible;
-		max-width: rem(1140);
-	
-		@include breakpoint(large) { overflow: scroll }
-	
-		&::-webkit-scrollbar { display: none }
-	}
-
-	&__title {
-		position: relative;
-		font-size: rem(125);
-		margin: rem(5) 0;
-		transform: translate(0%, 0%);
-		line-height: .8;
-
-		&:before, &:after {
-			content: 'codlipa';
-			position: absolute;
-			left: 0;
-			opacity: .8;
-		}
-
-		&:after {
-			color: var(--cherry);
-			z-index: -2;
-		} 
-
-		&:before {
-			color: var(--aqua);
-			z-index: -1;
-		}
-
-		&:hover {
-
-			&:before, &:after { animation: glitch var(--transition-min) cubic-bezier(.25, .46, .45, .94) infinite }
-
-			&:after { animation-direction: reverse }
-		}
-	}
-
-	&__subtitle {
-		font-size: rem(36);
-		margin-bottom: rem(15);
-		background-image: linear-gradient(var(--cherry), var(--aqua));
-		-webkit-text-fill-color: transparent;
-		-webkit-background-clip: text;
 	}
 }
 
@@ -80,21 +28,11 @@
 	100% { transform: translate(0) }
 }
 
-// WinBox
-#about__content p:not(:last-child) { margin: rem(25) 0 }
-
 .progress {
 
-	&__box { min-width: 80%;
+	&__box { min-width: 80% }
 
-		span {
-			display: inline-block;
-			font-size: rem(26);
-		}
-	}
-
-	&__bar,
-	&__bar span {
+	&__bar, &__bar span {
 		min-width: 100%;
 		border-radius: rem(10);
 	}

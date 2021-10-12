@@ -1,5 +1,23 @@
 @use '../util' as *;
 
+#click {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--black);
+	position: fixed;
+	z-index: 1;
+
+	&::after {
+		content: '';
+		width: rem(600);
+		min-height: rem(335);
+		background: url('../images/loading.webp') no-repeat 50% / contain;
+	}
+}
+
 .wrapper {
 	height: 100vw;
 
@@ -18,27 +36,10 @@
 	}
 }
 
-.container {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	position: absolute;
-	min-width: 100%;
-	overflow: hidden;
-
-	@include breakpoint(large) {
-		flex-direction: row;
-		align-items: center;
-
-		&__portfolio { justify-content: flex-end }
-	}
-}
-
 .slide {
 	display: flex;
 	flex-direction: column;
 	background-image: url('../images/background.webp');
-	max-height: 100vh;
 
 	&.one {
 		align-items: center;
@@ -59,6 +60,42 @@
 		min-height: 100vh;
 		background-color: rgba(0, 0, 0, .6);
 	}
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	position: absolute;
+	min-width: 100%;
+	overflow: hidden;
+
+	@include breakpoint(large) {
+		flex-direction: row;
+		align-items: center;
+
+		&__portfolio { justify-content: flex-end }
+	}
+}
+
+.scroll { overflow: visible;
+
+	@include breakpoint(large) {
+		overflow: scroll;
+		max-height: 100vh;
+	}
+
+	&:first-child { max-width: rem(640) }
+
+	&:last-child { max-width: rem(1140) }
+
+	&::-webkit-scrollbar { display: none }
+}
+
+.wb-body {
+	background-color: var(--dark-gray);
+	color: var(--white);
+	padding: 20px;
 }
 
 .hidden {
