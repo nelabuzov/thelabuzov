@@ -11,6 +11,7 @@ a, a:visited, a:active {
 a:hover, #click { 
 	cursor: url('../images/tools/link.cur'), auto;
 	text-decoration: line-through;
+	text-decoration-color: var(--aqua);
 }
 
 .links {
@@ -35,8 +36,5 @@ a:hover, #click {
 		}
 	}
 
-	a { text-decoration-color: var(--aqua);
-
-		&:not(:last-child) { padding-right: rem(20) }
-	}
+	a:not(:last-child) { padding-right: rem(20) }
 }
