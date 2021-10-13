@@ -1,0 +1,104 @@
+@use '../util' as *;
+
+// Timeline
+.timeline {
+	margin: 0 auto;
+	padding: rem(40) 0;
+	text-align: center;
+	background-color: var(--dark-gray);
+
+	@include breakpoint(large) {
+		display: grid;
+		grid-template-columns: 1fr rem(3) 1fr;
+		text-align: left;
+	}
+
+	&__component {
+		margin: 0 rem(25);
+
+		@include breakpoint(large) { margin-bottom: rem(25) }
+
+		&--bg {
+			padding: rem(25);
+			background: var(--light-gray);
+			box-shadow: 0 0 rem(5) var(--light-gray);
+			border-radius: rem(10);
+
+			&:nth-of-type(odd) { margin-bottom: rem(60);
+
+				@include breakpoint(large) { margin-bottom: rem(25) }
+			}
+		}
+	}
+
+	&__middle, &__point {
+		background-color: var(--aqua);
+		box-shadow: 0 0 rem(10) var(--aqua);
+	}
+
+	&__middle { position: relative }
+
+	&__point { display: none;
+
+		@include breakpoint(large) {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			width: rem(15);
+			height: rem(15);
+			border-radius: 50%;
+		}
+
+		&--bottom {
+			top: initial;
+			bottom: 0;
+		}
+	}
+
+	&__date { margin-bottom: rem(60);
+
+		&--right, &--bottom { margin-bottom: 0 }
+
+		&--right {
+
+			@include breakpoint(large) { text-align: right }
+		}
+	}
+}
+
+// Portfolio
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: start;
+
+	&__image, .soon {
+		background: no-repeat 50% / cover;
+	}
+
+	&__image {
+		min-height: 100%;
+		transition: var(--transition-min);
+
+		&:hover { transform: scale(1.2) }
+
+		&.soon {
+			cursor: url('../images/tools/unavailable.cur'), auto;
+			background-image: url('https://via.placeholder.com/380x250?text=Coming+Soon');
+		}
+
+		&.item-1 { background-image: url('../images/content/item-1.webp') }
+
+		&.item-2 { background-image: url('../images/content/item-2.webp') }
+
+		&.item-3 { background-image: url('../images/content/item-3.webp') }
+
+		&.item-4 { background-image: url('../images/content/item-4.webp') }
+
+		&.item-5 { background-image: url('../images/content/item-5.webp') }
+
+		&.item-6 { background-image: url('../images/content/item-6.webp') }
+	}
+}

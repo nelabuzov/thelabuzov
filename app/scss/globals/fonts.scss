@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Cyberthrone';
+	src: url('../app/fonts/cyberthrone.woff2');
+}
+
+:root {
+	--font-body: 'Cyberthrone';
+	--transition-min: .2s;
+	--transition-max: 8s;
+	--animate-delay: 1s
+}

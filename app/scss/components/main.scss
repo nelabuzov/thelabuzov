@@ -1,0 +1,123 @@
+@use '../util' as *;
+
+// Section
+.section {
+	
+	.one & { padding: rem(500) 0 0 rem(50);
+
+		@include breakpoint(large) { padding: 0;
+	
+			.suptitle { font-size: rem(150) }
+
+			.social { margin-top: rem(40) }
+		}
+	}
+}
+
+@keyframes glitch {
+	0% { transform: translate(0) }
+
+	20% { transform: translate(rem(-5), rem(5)) }
+
+	40% { transform: translate(rem(-5), rem(-5)) }
+
+	60% { transform: translate(rem(5), rem(5)) }
+
+	80% { transform: translate(rem(5), rem(-5)) }
+
+	100% { transform: translate(0) }
+}
+
+.progress {
+
+	&__box { min-width: 80% }
+
+	&__bar, &__bar span {
+		min-width: 100%;
+		border-radius: rem(10);
+	}
+
+	&__bar {
+		position: relative;
+		margin: rem(20) 0;
+		min-height: rem(20);
+		background-color: var(--light-gray);
+
+		span {
+			position: absolute;
+			min-height: 100%;
+			transform: scaleX(0);
+			transform-origin: left;
+			background-color: var(--aqua);
+			box-shadow: 0 0 rem(10) var(--aqua);
+			animation: progress var(--transition-min) forwards;
+		}
+
+		&.html span { min-width: 90% }
+
+		&.css span { min-width: 85% }
+
+		&.javascript span { min-width: 70% }
+
+		&.tailwind span { min-width: 75% }
+
+		&.bootstrap span { min-width: 65% }
+
+		&.git span { min-width: 80% }
+	}
+}
+
+@keyframes progress {
+	100% { transform: scaleX(1) }
+}
+
+// Hero
+.hero {
+	position: relative;
+	min-height: 100vh;
+
+	@include breakpoint(large) {
+		display: flex;
+		align-items: end;
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		left: rem(-70);
+		bottom: rem(58);
+		min-height: rem(392);
+		min-width: rem(638);
+		transform: scaleX(-1) rotate(90deg);
+		background: url('../images/console.webp') no-repeat 50% / contain;
+
+		@include breakpoint(medium) { left: rem(250) }
+
+		@include breakpoint(large) {
+			position: relative;
+			left: 0;
+			bottom: rem(-32.5);
+			min-width: rem(738);
+			transform: rotate(0);
+		}
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		left: rem(100);
+		bottom: rem(506);
+		min-width: rem(500);
+		min-height: rem(325);
+		transform: scaleX(-1);
+		background: url('../images/avatar.webp') no-repeat 50% / contain;
+
+		@include breakpoint(medium) { left: rem(420) }
+
+		@include breakpoint(large) {
+			left: 26%;
+			bottom: rem(250);
+			min-height: rem(425);
+		}
+	}
+}

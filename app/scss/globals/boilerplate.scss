@@ -1,0 +1,80 @@
+@use '../util' as *;
+
+html {
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+	outline: none;
+}
+
+body {
+	margin: 0;
+	font-size: rem(30);
+	font-family: var(--font-body);
+	color: var(--white);
+	line-height: 1.3;
+	cursor: url('../images/tools/normal.cur'), auto;
+
+	@include breakpoint(large) { overflow: hidden }
+}
+
+.title, .subtitle { cursor: url('../images/tools/busy.cur'), auto }
+
+.title {
+	position: relative;
+	font-size: rem(125);
+	margin: rem(5) 0;
+	transform: translate(0%, 0%);
+	line-height: .8;
+
+	&:before, &:after {
+		content: 'codlipa';
+		position: absolute;
+		left: 0;
+		opacity: .8;
+	}
+
+	&:after {
+		color: var(--cherry);
+		z-index: -2;
+	} 
+
+	&:before {
+		color: var(--aqua);
+		z-index: -1;
+	}
+
+	&:hover {
+
+		&:before, &:after { animation: glitch var(--transition-min) cubic-bezier(.25, .46, .45, .94) infinite }
+
+		&:after { animation-direction: reverse }
+	}
+}
+
+.subtitle {
+	font-size: rem(36);
+	margin-bottom: rem(25);
+
+	@include breakpoint(large) { font-size: rem(38) }
+
+	&--small {
+		font-size: rem(30);
+	}
+
+	&--gradient {
+		background-image: linear-gradient(var(--cherry), var(--aqua));
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+	}
+}
+
+.paragraph {
+
+	&:not(:last-child) {
+		margin-bottom: rem(25);
+	}
+}
