@@ -96,7 +96,7 @@
 		@include breakpoint(large) {
 			position: relative;
 			left: 0;
-			bottom: rem(-32.5);
+			bottom: rem(-38);
 			min-width: rem(738);
 			transform: rotate(0);
 		}
@@ -116,7 +116,7 @@
 
 		@include breakpoint(large) {
 			left: 26%;
-			bottom: rem(250);
+			bottom: rem(245);
 			min-height: rem(425);
 		}
 	}

@@ -13,9 +13,10 @@ html {
 body {
 	margin: 0;
 	font-size: rem(30);
-	font-family: var(--font-body);
-	color: var(--white);
 	line-height: 1.3;
+	color: var(--white);
+	font-family: var(--font-body);
+	background-color: var(--dark-gray);
 	cursor: url('../images/tools/normal.cur'), auto;
 
 	@include breakpoint(large) { overflow: hidden }
