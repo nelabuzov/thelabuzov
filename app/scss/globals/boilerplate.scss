@@ -17,18 +17,19 @@ body {
 	color: var(--white);
 	font-family: var(--font-body);
 	background-color: var(--dark-gray);
-	cursor: url('../images/tools/normal.cur'), auto;
+	cursor: url('../images/tools/work.cur'), auto;
 
 	@include breakpoint(large) { overflow: hidden }
 }
 
-.title, .subtitle { cursor: url('../images/tools/busy.cur'), auto }
+.title, .subtitle { cursor: url('../images/tools/text.cur'), auto }
 
 .title {
+	display: inline-block;
 	position: relative;
 	font-size: rem(100);
 	margin-bottom: rem(10);
-	transform: translate(0%, 0%);
+	transform: translateX(0);
 
 	&:before, &:after {
 		content: 'codlipa';

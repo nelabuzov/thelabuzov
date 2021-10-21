@@ -16,19 +16,10 @@ a:hover, #click {
 
 .links {
 
-	&__item {
-		min-width: 100%;
-		min-height: rem(250);
-		overflow: hidden;
-		flex-grow: 1;
-
-		@include breakpoint(medium) { min-width: rem(380) }
-	}
-
 	&--vertical {
 		display: inline-flex;
 		flex-direction: column;
-		
+
 		a {
 			text-decoration-color: var(--cherry);
 			text-shadow: 0 0 rem(10) var(--aqua);

@@ -74,6 +74,26 @@
 	flex-wrap: wrap;
 	align-content: start;
 
+	&__item {
+		min-width: 100%;
+		min-height: rem(250);
+		border: rem(5) solid var(--dark-gray);
+		overflow: hidden;
+		flex-grow: 1;
+
+		@include breakpoint(medium) { min-width: rem(380) }
+
+		&.soon { display: none;
+
+			@include breakpoint(large) { display: block }
+
+			* {
+				cursor: url('../images/tools/unavailiable.cur'), auto;
+				background-image: url('https://via.placeholder.com/380x250?text=Coming+Soon');
+			}
+		}
+	}
+
 	&__image, .soon {
 		background: no-repeat 50% / cover;
 	}
@@ -83,11 +103,6 @@
 		transition: var(--transition-min);
 
 		&:hover { transform: scale(1.2) }
-
-		&.soon {
-			cursor: url('../images/tools/unavailable.cur'), auto;
-			background-image: url('https://via.placeholder.com/380x250?text=Coming+Soon');
-		}
 
 		&.item-1 { background-image: url('../images/content/item-1.webp') }
 

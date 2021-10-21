@@ -3,9 +3,9 @@
 // Section
 .section {
 	
-	.one & { padding: rem(555) 0 0 rem(25);
+	.one & { text-align: center;
 
-		@include breakpoint(large) { padding: 0 }
+		@include breakpoint(large) { text-align: left }
 
 		.social {
 			margin-top: rem(60);
@@ -75,6 +75,7 @@
 
 // Hero
 .hero {
+	display: none;
 	position: relative;
 	min-height: 100vh;
 
@@ -85,41 +86,26 @@
 
 	&::before {
 		content: '';
-		position: absolute;
-		left: rem(-70);
-		bottom: rem(125);
+		position: relative;
+		left: 0;
+		bottom: rem(-38);
 		min-height: rem(392);
-		min-width: rem(638);
-		transform: scaleX(-1) rotate(90deg);
+		min-width: rem(738);
+		transform: rotate(0);
 		background: url('../images/console.webp') no-repeat 50% / contain;
-
-		@include breakpoint(medium) { left: rem(250) }
-
-		@include breakpoint(large) {
-			position: relative;
-			left: 0;
-			bottom: rem(-38);
-			min-width: rem(738);
-			transform: rotate(0);
-		}
 	}
 
 	&::after {
 		content: '';
+		display: none;
 		position: absolute;
-		left: rem(100);
-		bottom: rem(573);
+		left: 24%;
+		bottom: rem(245);
 		min-width: rem(500);
-		min-height: rem(325);
+		min-height: rem(425);
 		transform: scaleX(-1);
 		background: url('../images/avatar.webp') no-repeat 50% / contain;
 
-		@include breakpoint(medium) { left: rem(420) }
-
-		@include breakpoint(large) {
-			left: 24%;
-			bottom: rem(245);
-			min-height: rem(425);
-		}
+		@include breakpoint(large) { display: block }
 	}
 }
