@@ -8,7 +8,7 @@
 	justify-content: center;
 	background-color: var(--black);
 	position: fixed;
-	z-index: 1;
+	z-index: 2;
 
 	&::after {
 		content: '';
@@ -18,8 +18,7 @@
 	}
 }
 
-.wrapper {
-	height: 100vw;
+.wrapper { height: 100vw;
 
 	@include breakpoint(large) {
 		transform: rotate(-90deg) translateX(-100vh);
@@ -50,8 +49,6 @@
 		align-items: end;
 		background-image: none;
 		background-color: var(--light-gray);
-
-		@include breakpoint(large) { box-shadow: rem(-140) 0 rem(40) rem(45) var(--dark-gray) }
 	}
 
 	&::before {
@@ -75,8 +72,9 @@
 		align-items: center;
 
 		&__portfolio {
-			justify-content: end;
 			align-items: start;
+			justify-content: end;
+			box-shadow: rem(-140) 0 rem(40) rem(45) var(--dark-gray);
 		}
 	}
 }

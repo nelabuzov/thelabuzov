@@ -3,18 +3,18 @@
 // Timeline
 .timeline {
 	margin: 0 auto;
-	padding: rem(40) 0;
 	text-align: center;
+	padding: rem(60) 0 0;
 	background-color: var(--dark-gray);
 
 	@include breakpoint(large) {
 		display: grid;
 		grid-template-columns: 1fr rem(3) 1fr;
+		padding: rem(40) 0;
 		text-align: left;
 	}
 
-	&__component {
-		margin: 0 rem(25);
+	&__component { margin: 0 rem(25);
 
 		@include breakpoint(large) { margin-bottom: rem(25) }
 
@@ -22,12 +22,8 @@
 			padding: rem(25);
 			background: var(--light-gray);
 			box-shadow: 0 0 rem(5) var(--light-gray);
+			margin-bottom: rem(60);
 			border-radius: rem(10);
-
-			&:nth-of-type(odd) { margin-bottom: rem(60);
-
-				@include breakpoint(large) { margin-bottom: rem(25) }
-			}
 		}
 	}
 
@@ -57,7 +53,9 @@
 		}
 	}
 
-	&__date { margin-bottom: rem(60);
+	&__date { display: none;
+
+		@include breakpoint(large) { display: block; }
 
 		&--right, &--bottom { margin-bottom: 0 }
 
@@ -86,23 +84,25 @@
 		&.soon { display: none;
 
 			@include breakpoint(large) { display: block }
-
-			* {
-				cursor: url('../images/tools/unavailiable.cur'), auto;
-				background-image: url('https://via.placeholder.com/380x250?text=Coming+Soon');
-			}
 		}
 	}
 
-	&__image, .soon {
-		background: no-repeat 50% / cover;
-	}
+	&__image, .soon { background: no-repeat 50% / cover }
 
 	&__image {
+		display: block;
 		min-height: 100%;
 		transition: var(--transition-min);
 
-		&:hover { transform: scale(1.2) }
+		&:hover {
+			transform: scale(1.2);
+			cursor: url('../images/tools/pin.cur'), auto;
+		}
+
+		&.item-0 {
+			cursor: url('../images/tools/unavailiable.cur'), auto;
+			background-image: url('https://via.placeholder.com/380x250?text=Coming+Soon');
+		}
 
 		&.item-1 { background-image: url('../images/content/item-1.webp') }
 

@@ -21,6 +21,7 @@ a:hover, #click {
 		flex-direction: column;
 
 		a {
+			cursor: url('../images/tools/person.cur'), auto;
 			text-decoration-color: var(--cherry);
 			text-shadow: 0 0 rem(10) var(--aqua);
 			color: var(--aqua);
@@ -29,3 +30,5 @@ a:hover, #click {
 
 	a:not(:last-child) { padding-right: rem(20) }
 }
+
+.paragraph a { cursor: url('../images/tools/person.cur'), auto }
