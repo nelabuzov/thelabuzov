@@ -35,6 +35,8 @@
 	}
 }
 
+.two, .container__portfolio { box-shadow: rem(-140) 0 rem(40) rem(45) var(--dark-gray) }
+
 .slide {
 	display: flex;
 	flex-direction: column;
@@ -74,7 +76,6 @@
 		&__portfolio {
 			align-items: start;
 			justify-content: end;
-			box-shadow: rem(-140) 0 rem(40) rem(45) var(--dark-gray);
 		}
 	}
 }

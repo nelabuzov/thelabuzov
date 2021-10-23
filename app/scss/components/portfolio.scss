@@ -87,33 +87,53 @@
 		}
 	}
 
-	&__image, .soon { background: no-repeat 50% / cover }
-
-	&__image {
-		display: block;
+	&__link, &__link:visited, &__link:active {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		min-height: 100%;
-		transition: var(--transition-min);
+		text-shadow: none;
+		position: relative;
+		color: var(--white);
 
-		&:hover {
-			transform: scale(1.2);
+		&:not(.item-0)::after {
+			content: '';
+			opacity: 0;
+			min-width: 100%;
+			min-height: 100%;
+			position: absolute;
+			transition: var(--transition-min);
+			background-color: rgba(0, 0, 0, .6);
+		}
+
+		&:hover:not(.item-0) {
+			text-decoration: none;
 			cursor: url('../images/tools/pin.cur'), auto;
+
+			&::after, .portfolio__text { opacity: 1 }
+
+			.portfolio__image {
+				filter: blur(rem(2));
+				transform: scale(1.1);
+			}
 		}
 
 		&.item-0 {
 			cursor: url('../images/tools/unavailiable.cur'), auto;
-			background-image: url('https://via.placeholder.com/380x250?text=Coming+Soon');
+			background: url('https://via.placeholder.com/380x250?text=Coming+Soon') no-repeat 50% / cover;
 		}
+	}
 
-		&.item-1 { background-image: url('../images/content/item-1.webp') }
+	&__image, &__text { transition: var(--transition-min) }
 
-		&.item-2 { background-image: url('../images/content/item-2.webp') }
+	&__image {
+		position: absolute;
+		max-height: 100%;
+	}
 
-		&.item-3 { background-image: url('../images/content/item-3.webp') }
-
-		&.item-4 { background-image: url('../images/content/item-4.webp') }
-
-		&.item-5 { background-image: url('../images/content/item-5.webp') }
-
-		&.item-6 { background-image: url('../images/content/item-6.webp') }
+	&__text {
+		position: relative;
+		opacity: 0;
+		z-index: 1;
 	}
 }
