@@ -16,8 +16,8 @@ body {
 	font-size: rem(25);
 	color: var(--white);
 	font-family: var(--font-body);
-	background-color: var(--dark-gray);
 	cursor: url('../images/tools/pointer.cur'), auto;
+	background-image: url('../images/background.webp');
 
 	@include breakpoint(large) { overflow: hidden }
 }

@@ -35,15 +35,9 @@
 	}
 }
 
-.two, .container__portfolio { box-shadow: 0 0 rem(40) rem(45) var(--dark-gray);
-
-	@include breakpoint(large) { box-shadow: rem(-140) 0 rem(40) rem(45) var(--dark-gray); }
-}
-
 .slide {
 	display: flex;
 	flex-direction: column;
-	background-image: url('../images/background.webp');
 
 	&.one {
 		justify-content: center;
@@ -72,6 +66,11 @@
 	min-width: 100%;
 	overflow: hidden;
 
+	&__portfolio {
+		box-shadow: 0 0 rem(40) rem(45) var(--dark-gray);
+		background-color: var(--dark-gray);
+	}
+
 	@include breakpoint(large) {
 		flex-direction: row;
 		align-items: center;
@@ -79,6 +78,7 @@
 		&__portfolio {
 			align-items: start;
 			justify-content: end;
+			min-height: 100vh;
 		}
 	}
 }
@@ -90,7 +90,13 @@
 		max-height: 100vh;
 	}
 
-	&:first-child { max-width: rem(640) }
+	&:first-child { min-width: 100vw;
+
+		@include breakpoint(large) {
+			max-width: rem(640);
+			min-width: auto;
+		}
+	}
 
 	&:last-child { max-width: rem(1140) }
 

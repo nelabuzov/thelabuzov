@@ -10,8 +10,8 @@ a, a:visited, a:active {
 
 a:hover, #click { 
 	cursor: url('../images/tools/link.cur'), auto;
-	text-decoration: line-through;
 	text-decoration-color: var(--aqua);
+	text-decoration: line-through;
 }
 
 .links {
