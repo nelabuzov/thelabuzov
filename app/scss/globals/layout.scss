@@ -35,17 +35,15 @@
 	}
 }
 
-.two, .container__portfolio { box-shadow: rem(-140) 0 rem(40) rem(45) var(--dark-gray) }
+.two, .container__portfolio { box-shadow: 0 0 rem(40) rem(45) var(--dark-gray);
+
+	@include breakpoint(large) { box-shadow: rem(-140) 0 rem(40) rem(45) var(--dark-gray); }
+}
 
 .slide {
 	display: flex;
 	flex-direction: column;
 	background-image: url('../images/background.webp');
-
-	&.one {
-		align-items: center;
-		justify-content: center;
-	}
 
 	&.two {
 		align-items: end;
@@ -68,6 +66,11 @@
 	position: absolute;
 	min-width: 100%;
 	overflow: hidden;
+
+	&:not(.container__portfolio) { padding-top: rem(20);
+
+		@include breakpoint(large) { padding: 0 }
+	}
 
 	@include breakpoint(large) {
 		flex-direction: row;
