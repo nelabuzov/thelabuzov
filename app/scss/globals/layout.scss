@@ -45,6 +45,11 @@
 	flex-direction: column;
 	background-image: url('../images/background.webp');
 
+	&.one {
+		justify-content: center;
+		align-items: center;
+	}
+
 	&.two {
 		align-items: end;
 		background-image: none;
@@ -66,11 +71,6 @@
 	position: absolute;
 	min-width: 100%;
 	overflow: hidden;
-
-	&:not(.container__portfolio) { padding-top: rem(20);
-
-		@include breakpoint(large) { padding: 0 }
-	}
 
 	@include breakpoint(large) {
 		flex-direction: row;

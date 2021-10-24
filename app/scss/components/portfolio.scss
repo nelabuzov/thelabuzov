@@ -81,6 +81,8 @@
 
 		@include breakpoint(medium) { min-width: 50% }
 
+		@include breakpoint(large) { min-width: rem(380) }
+
 		&.soon { display: none;
 
 			@include breakpoint(large) { display: block }
