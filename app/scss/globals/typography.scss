@@ -2,33 +2,41 @@
 
 h1, h2, h3, p { margin: 0 }
 
-a, a:visited, a:active {
+a {
+	color: var(--aqua);
 	text-decoration: none;
-	text-shadow: 0 0 rem(10) var(--cherry);
-	color: var(--cherry);
+	transition: var(--transition-min);
+	text-shadow: 0 0 rem(10) var(--aqua);
+	cursor: url('../images/tools/person.cur'), auto;
+
+	&:hover {
+		color: var(--cherry);
+		text-shadow: 0 0 rem(10) var(--cherry);
+	}
 }
 
-a:hover, #click { 
-	cursor: url('../images/tools/link.cur'), auto;
-	text-decoration-color: var(--aqua);
-	text-decoration: line-through;
-}
+#click { cursor: url('../images/tools/link.cur'), auto }
 
 .links {
 
 	&--vertical {
 		display: inline-flex;
 		flex-direction: column;
-
-		a {
-			cursor: url('../images/tools/person.cur'), auto;
-			text-decoration-color: var(--cherry);
-			text-shadow: 0 0 rem(10) var(--aqua);
-			color: var(--aqua);
-		}
 	}
 
-	a:not(:last-child) { padding-right: rem(20) }
-}
+	a {
 
-.paragraph a { cursor: url('../images/tools/person.cur'), auto }
+		&:not(.links--vertical) {
+			color: var(--cherry);
+			text-shadow: 0 0 rem(10) var(--cherry);
+			cursor: url('../images/tools/link.cur'), auto;
+
+			&:hover {
+				color: var(--aqua);
+				text-shadow: 0 0 rem(10) var(--aqua);
+			}
+		}
+
+		&:not(:last-child) { margin-right: rem(20) }
+	}
+}
