@@ -77,10 +77,13 @@
 	flex-wrap: wrap;
 	align-content: start;
 
-	&__item {
-		min-width: 100%;
-		min-height: rem(250);
+	&__link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		border: rem(5) solid var(--dark-gray);
+		min-height: rem(250);
+		position: relative;
 		overflow: hidden;
 		flex-grow: 1;
 
@@ -92,58 +95,58 @@
 
 			@include breakpoint(large) { display: block }
 		}
-	}
 
-	&__link {
-		display: flex;
-		justify-content: center;
-		cursor: url('../images/tools/pin.cur'), auto;
-		align-items: center;
-		position: relative;
-		min-height: 100%;
+		&:hover:not(.soon) {
 
-		&:not(.item-0)::after {
-			content: '';
-			opacity: 0;
-			min-width: 100%;
-			min-height: 100%;
-			position: absolute;
-			transition: var(--transition-min);
-			background-color: rgba(0, 0, 0, .6);
-		}
-
-		&, &:hover:not(.item-0) {
-			color: var(--white);
-			text-shadow: none;
-		}
-
-		&:hover:not(.item-0) {
-
-			&::after, .portfolio__text { opacity: 1 }
+			.portfolio__image::after, .portfolio__text { opacity: 1 }
 
 			.portfolio__image {
 				filter: blur(rem(2));
 				transform: scale(1.1);
 			}
 		}
-
-		&.item-0 {
-			cursor: url('../images/tools/unavailiable.cur'), auto;
-			background: url('https://via.placeholder.com/380x250?text=Coming+Soon') no-repeat 50% / cover;
-		}
 	}
 
-	&__image, &__text { transition: var(--transition-min) }
+	&__image, &__image:not(.item-0)::after, &__text {
+		cursor: url('../images/tools/pin.cur'), auto;
+		transition: var(--transition-min);
+	}
 
 	&__image {
 		position: absolute;
-		max-width: 100%;
-		min-height: 100%;
-		min-width: rem(485);
+		background: no-repeat 50% / cover;
+
+		&, &:not(.item-0)::after {
+			min-height: 100%;
+			min-width: 100%;
+		}
+
+		&:not(.item-0)::after {
+			content: '';
+			opacity: 0;
+			position: absolute;
+			background-color: rgba(0, 0, 0, .6);
+		}
+
+		&.item-0 {
+			cursor: url('../images/tools/unavailiable.cur'), auto;
+			background-image: url('https://via.placeholder.com/380x250?text=Coming+Soon');
+		}
+
+		&.item-1 { background-image: url('../images/content/item-1.webp') }
+
+		&.item-2 { background-image: url('../images/content/item-2.webp') }
+
+		&.item-3 { background-image: url('../images/content/item-3.webp') }
+
+		&.item-4 { background-image: url('../images/content/item-4.webp') }
+
+		&.item-5 { background-image: url('../images/content/item-5.webp') }
+
+		&.item-6 { background-image: url('../images/content/item-6.webp') }
 	}
 
 	&__text {
-		position: relative;
 		opacity: 0;
 		z-index: 1;
 	}

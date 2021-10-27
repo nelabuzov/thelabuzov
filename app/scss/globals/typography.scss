@@ -3,15 +3,21 @@
 h1, h2, h3, p { margin: 0 }
 
 a {
-	color: var(--aqua);
+	position: relative;
+	color: var(--white);
 	text-decoration: none;
-	transition: var(--transition-min);
-	text-shadow: 0 0 rem(10) var(--aqua);
-	cursor: url('../images/tools/person.cur'), auto;
+	cursor: url('../images/tools/pointer.cur'), auto;
 
-	&:hover {
-		color: var(--cherry);
-		text-shadow: 0 0 rem(10) var(--cherry);
+	&:not(.portfolio__link) {
+		color: var(--aqua);
+		transition: var(--transition-min);
+		text-shadow: 0 0 rem(10) var(--aqua);
+		cursor: url('../images/tools/person.cur'), auto;
+
+		&:hover {
+			color: var(--cherry);
+			text-shadow: 0 0 rem(10) var(--cherry);
+		}
 	}
 }
 
