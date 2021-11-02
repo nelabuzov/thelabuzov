@@ -32,7 +32,10 @@
 
 .progress {
 
-	&__box { min-width: 80% }
+	&__box { min-width: 80%;
+
+		&:last-child .progress__bar { margin-bottom: rem(10) }
+	}
 
 	&__bar, &__bar span {
 		min-width: 100%;

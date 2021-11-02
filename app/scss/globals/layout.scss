@@ -106,7 +106,7 @@
 .wb-body {
 	background-color: var(--dark-gray);
 	color: var(--white);
-	padding: 20px;
+	padding: rem(20);
 
 	&::-webkit-scrollbar { display: none }
 }
