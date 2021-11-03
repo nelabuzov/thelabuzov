@@ -34,16 +34,18 @@ progress.addEventListener('click', () => {
 	})
 })
 
-// Typed
-var typed = new Typed('#animate', {
-	strings: [
-		"Content Creator",
-		"Web Developer"
-	],
-	typeSpeed: 50,
-	backSpeed: 50,
-	loop: true
-})
+// Theme
+function audio() {
+	var audio = document.createElement("audio")
+	audio.setAttribute("autoplay", "true")
+	audio.innerHTML = "<source src='./app/audio/theme.webm' type='audio/mpeg'>"
+	document.body.appendChild(audio)
+}
+
+function display() {
+	var display = document.getElementById("click")
+	display.style.display = "none"
+}
 
 // Animates
 $(document).ready(function(){
@@ -66,5 +68,4 @@ $(document).ready(function(){
 			target.removeClass(visibleClass).removeClass(addToClass)
 		}
 	})
-
 })
