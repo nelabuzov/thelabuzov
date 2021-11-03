@@ -30,7 +30,7 @@ a {
 		flex-direction: column;
 	}
 
-	a {
+	a { float: left;
 
 		&:not(.links--vertical) {
 			color: var(--cherry);
@@ -43,6 +43,8 @@ a {
 			}
 		}
 
-		&:not(:last-child) { margin-right: rem(20) }
+		&:first-child { padding-right: rem(10) }
+
+		&:last-child { padding-left: rem(10) }
 	}
 }

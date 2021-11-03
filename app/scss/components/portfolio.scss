@@ -79,26 +79,27 @@
 
 	&__link {
 		display: flex;
-		align-items: center;
 		justify-content: center;
+		cursor: url('../images/tools/pin.cur'), auto;
 		border: rem(5) solid var(--dark-gray);
 		min-height: rem(250);
-		position: relative;
 		overflow: hidden;
-		flex-grow: 1;
+		min-width: 100%;
 
 		@include breakpoint(medium) { min-width: 50% }
 
 		@include breakpoint(large) { min-width: rem(380) }
 
-		&.soon { display: none;
+		&.soon {
+			display: none;
+			cursor: url('../images/tools/unavailiable.cur'), auto;
 
 			@include breakpoint(large) { display: block }
 		}
 
 		&:hover:not(.soon) {
 
-			.portfolio__image::after, .portfolio__text { opacity: 1 }
+			.portfolio__text { opacity: 1 }
 
 			.portfolio__image {
 				filter: blur(rem(2));
@@ -107,47 +108,47 @@
 		}
 	}
 
-	&__image, &__image:not(.item-0)::after, &__text {
-		cursor: url('../images/tools/pin.cur'), auto;
-		transition: var(--transition-min);
-	}
+	&__image, &__text { transition: var(--transition-min) }
 
 	&__image {
 		position: absolute;
-		background: no-repeat 50% / cover;
+		max-width: 100%;
+		min-height: 100%;
+		min-width: rem(485);
 
-		&, &:not(.item-0)::after {
-			min-height: 100%;
-			min-width: 100%;
-		}
+		&.item-0 { background-image: url('https://via.placeholder.com/380x250?text=Coming+Soon') }
+	}
 
-		&:not(.item-0)::after {
+	&__text { opacity: 0;
+
+		&::before, &::after { position: absolute }
+
+		&::before {
 			content: '';
-			opacity: 0;
-			position: absolute;
+			top: 0;
+			left: 0;
+			min-width: 100%;
+			min-height: 100%;
 			background-color: rgba(0, 0, 0, .6);
 		}
 
-		&.item-0 {
-			cursor: url('../images/tools/unavailiable.cur'), auto;
-			background-image: url('https://via.placeholder.com/380x250?text=Coming+Soon');
+		&::after {
+			top: 50%;
+			left: 50%;
+			white-space: nowrap;
+			transform: translate(-50%, -50%);
 		}
 
-		&.item-1 { background-image: url('../images/content/item-1.webp') }
+		&.item-1::after { content: 'Mw Website' }
 
-		&.item-2 { background-image: url('../images/content/item-2.webp') }
+		&.item-2::after { content: 'Elena Website' }
 
-		&.item-3 { background-image: url('../images/content/item-3.webp') }
+		&.item-3::after { content: 'Marble Website' }
 
-		&.item-4 { background-image: url('../images/content/item-4.webp') }
+		&.item-4::after { content: 'Education Website' }
 
-		&.item-5 { background-image: url('../images/content/item-5.webp') }
+		&.item-5::after { content: 'OathJar Website' }
 
-		&.item-6 { background-image: url('../images/content/item-6.webp') }
-	}
-
-	&__text {
-		opacity: 0;
-		z-index: 1;
+		&.item-6::after { content: 'Hugo Website' }
 	}
 }

@@ -47,6 +47,17 @@ function display() {
 	display.style.display = "none"
 }
 
+// Typed
+var typed = new Typed('#animate', {
+	strings: [
+		"Content Creator",
+		"Web Developer"
+	],
+	typeSpeed: 50,
+	backSpeed: 50,
+	loop: true
+})
+
 // Animates
 $(document).ready(function(){
 	var scrollDiv = $(".wrapper")
