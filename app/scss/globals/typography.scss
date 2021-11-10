@@ -1,0 +1,50 @@
+@use '../util' as *;
+
+h1, h2, h3, p { margin: 0 }
+
+a {
+	position: relative;
+	color: var(--white);
+	text-decoration: none;
+	cursor: url('../images/tools/pointer.cur'), auto;
+
+	&:not(.portfolio__link) {
+		color: var(--aqua);
+		transition: var(--transition-min);
+		text-shadow: 0 0 rem(10) var(--aqua);
+		cursor: url('../images/tools/person.cur'), auto;
+
+		&:hover {
+			color: var(--cherry);
+			text-shadow: 0 0 rem(10) var(--cherry);
+		}
+	}
+}
+
+#click { cursor: url('../images/tools/link.cur'), auto }
+
+.links { font-size: 0;
+
+	&--vertical {
+		display: inline-flex;
+		flex-direction: column;
+	}
+
+	a { font-size: rem(25);
+
+		&:not(.links--vertical) {
+			color: var(--cherry);
+			text-shadow: 0 0 rem(10) var(--cherry);
+			cursor: url('../images/tools/link.cur'), auto;
+
+			&:hover {
+				color: var(--aqua);
+				text-shadow: 0 0 rem(10) var(--aqua);
+			}
+		}
+
+		&:first-child { padding-right: rem(10) }
+
+		&:last-child { padding-left: rem(10) }
+	}
+}
