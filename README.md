@@ -6,7 +6,7 @@
   <a href="https://linkedin.com/in/codlipa"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-0A66C2?&style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </div> <br>
 
-<p align="center">Daily working with websites & writing about it 💛 I'm motivated member of community and #100DaysOfCode 🔥</p><br>
+<p align="center">Daily working with websites & writing about it 💛 I'm motivated member of community and #100DaysOfCode 🔥 Follow for helpful DEV sources.</p><br>
 
 <div align="center">
   <img width="46%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&hide_border=true&theme=onedark">
