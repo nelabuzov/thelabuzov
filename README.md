@@ -21,6 +21,7 @@
   </div>
 
   <!-- <a href="https://open.spotify.com/user/hi40rt1oyr7g8sq6w6c6s1s04"><img src="https://novatorem-codlipa.vercel.app/api/spotify"></a>
+  <a href="https://wakatime.com/@codlipa"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=codlipa"></a>
   <a href="https://app.daily.dev/codlipa"><img src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png"></a>
   <img src="https://profile-counter.glitch.me/codlipa/count.svg">
   <p>
