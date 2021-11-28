@@ -17,6 +17,5 @@
 
   <img width="46%" src="https://github-readme-stats.vercel.app/api/pin/?username=codlipa&repo=100-days-of-code&hide_border=true&theme=onedark">
   <img src="https://profile-counter.glitch.me/codlipa/count.svg">
-
   <a href="https://open.spotify.com/user/hi40rt1oyr7g8sq6w6c6s1s04"><img src="https://novatorem-codlipa.vercel.app/api/spotify"></a>
 </div>
