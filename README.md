@@ -1,6 +1,7 @@
 <div align="center">
   <h2>Hi there <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="30"> I am <a href="https://codlipa.vercel.app">Dmitry Labuzov</a></h2>
 
+  <a href="mailto:codlipa@gmail.com"><img src="https://img.shields.io/badge/gmail-555555?logo=gmail&logoColor=ffffff&style=for-the-badge"></a>
   <a href="https://github.com/codlipa"><img src="https://img.shields.io/github/followers/codlipa?label=github&logo=github&logoColor=ffffff&style=for-the-badge"></a>
   <a href="https://codepen.io/codlipa"><img src="https://img.shields.io/badge/codepen-555555?logo=codepen&logoColor=ffffff&style=for-the-badge"></a>
   <a href="https://twitter.com/codlipa"><img src="https://img.shields.io/twitter/follow/codlipa?color=007ec6&label=twitter&logo=twitter&logoColor=ffffff&style=for-the-badge"></a>
@@ -16,9 +17,15 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=codlipa&hide_border=true&theme=onedark" width="48%">
   <div>
     <img style="float: left;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&hide_border=true&theme=onedark" width="46%">
-    <a href="https://open.spotify.com/user/hi40rt1oyr7g8sq6w6c6s1s04"><img src="https://novatorem-codlipa.vercel.app/api/spotify" width="46%"></a>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=codlipa&repo=100-days-of-code&hide_border=true&theme=onedark" width="46%">
   </div>
 
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=codlipa&repo=100-days-of-code&hide_border=true&theme=onedark" width="46%">
+  <!-- <a href="https://open.spotify.com/user/hi40rt1oyr7g8sq6w6c6s1s04"><img src="https://novatorem-codlipa.vercel.app/api/spotify"></a>
+  <a href="https://app.daily.dev/codlipa"><img src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png"></a>
   <img src="https://profile-counter.glitch.me/codlipa/count.svg">
+  <p>
+    <img src="https://img.shields.io/badge/html-e34f26?style=flat-square&logo=html5&logoColor=white">
+    <img src="https://img.shields.io/badge/css-1572b6?style=flat-square&logo=css3&logoColor=white">
+    Tailwind, JS, Pug, Bootstrap, Photoshop, Markdown, Sass, XD, Figma, Gulp, Git, Npm or Generator
+  </p> -->
 </div>
