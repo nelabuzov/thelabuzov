@@ -6,7 +6,6 @@
   <a href="https://twitter.com/codlipa?ref_src=twsrc%5Etfw">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/codlipa?color=%231DA1F2&label=follow&logo=twitter&style=for-the-badge">
   </a>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
   <a href="https://linkedin.com/in/codlipa"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-0A66C2?&style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </div> <br>
