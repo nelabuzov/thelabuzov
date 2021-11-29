@@ -21,7 +21,7 @@
   <!-- Middle -->
   <img src="https://github-readme-stats.vercel.app/api?username=codlipa&show_icons=true&hide_border=true&theme=onedark" width="49.7%">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=codlipa&hide_border=true&theme=onedark" width="49.7%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&hide_border=true&theme=onedark" width="48.8%" height="200" align="right">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&hide_border=true&theme=onedark" width="48.8%" height="220" align="right">
   <img src="https://profile-counter.glitch.me/codlipa/count.svg" width="48.8%" align="right">
   <a href="https://open.spotify.com/user/hi40rt1oyr7g8sq6w6c6s1s04"><img src="https://novatorem-codlipa.vercel.app/api/spotify" width="48.8%"></a>
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=codlipa&repo=100-days-of-code&hide_border=true&theme=onedark" width="48.8%">
