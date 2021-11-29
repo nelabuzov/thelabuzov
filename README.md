@@ -21,9 +21,10 @@
   <!-- Middle -->
   <img src="https://github-readme-stats.vercel.app/api?username=codlipa&show_icons=true&hide_border=true&theme=onedark" width="49%">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=codlipa&hide_border=true&theme=onedark" width="49%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&hide_border=true&theme=onedark" width="47%" align="right">
-  <a href="https://open.spotify.com/user/hi40rt1oyr7g8sq6w6c6s1s04"><img src="https://novatorem-codlipa.vercel.app/api/spotify" width="47%"></a>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=codlipa&repo=100-days-of-code&hide_border=true&theme=onedark" width="47%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&hide_border=true&theme=onedark" width="46%" align="right">
+  <a href="https://open.spotify.com/user/hi40rt1oyr7g8sq6w6c6s1s04"><img src="https://novatorem-codlipa.vercel.app/api/spotify" width="46%" align="left"></a>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=codlipa&repo=100-days-of-code&hide_border=true&theme=onedark" width="46%" align="left">
+  <img src="https://profile-counter.glitch.me/codlipa/count.svg" width="35%" align="center">
   <!-- / Middle -->
 
   <!-- Small
@@ -58,11 +59,12 @@
     <img src="https://img.shields.io/badge/git-f05032?style=flat-square&logo=git&logoColor=fff">
     <img src="https://img.shields.io/badge/npm-cb3837?style=flat-square&logo=npm&logoColor=fff">
   </p>
-  Shield -->
+  Shield
 
-  <br><br>
-  <a href="#"><img src="https://img.shields.io/badge/bitcoin-000?style=for-the-badge&logo=bitcoin" height="40"></a>
-  <a href="#"><img src="https://img.shields.io/badge/paypal-00457c?style=for-the-badge&logo=paypal" height="40"></a>
-  <a href="https://buymeacoffee.com/codlipa"><img src="https://img.shields.io/badge/buymeacoffee-fd0?style=for-the-badge&logo=buymeacoffee&logoColor=333" height="40"></a>
-  <a href="https://ko-fi.com/codlipa"><img src="https://img.shields.io/badge/ko--fi-ff5e5b?style=for-the-badge&logo=ko-fi&logoColor=fff" height="40"></a>
+  Support
+    <a href="#"><img src="https://img.shields.io/badge/bitcoin-000?style=for-the-badge&logo=bitcoin" height="40"></a>
+    <a href="#"><img src="https://img.shields.io/badge/paypal-00457c?style=for-the-badge&logo=paypal" height="40"></a>
+    <a href="https://buymeacoffee.com/codlipa"><img src="https://img.shields.io/badge/buymeacoffee-fd0?style=for-the-badge&logo=buymeacoffee&logoColor=333" height="40"></a>
+    <a href="https://ko-fi.com/codlipa"><img src="https://img.shields.io/badge/ko--fi-ff5e5b?style=for-the-badge&logo=ko-fi&logoColor=fff" height="40"></a>
+  Support -->
 </div>
