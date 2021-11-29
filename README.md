@@ -21,10 +21,10 @@
   <!-- Middle -->
   <img src="https://github-readme-stats.vercel.app/api?username=codlipa&show_icons=true&hide_border=true&theme=onedark" width="49%">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=codlipa&hide_border=true&theme=onedark" width="49%">
-  <a href="https://open.spotify.com/user/hi40rt1oyr7g8sq6w6c6s1s04"><img src="https://novatorem-codlipa.vercel.app/api/spotify" width="46.5%"></a>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=codlipa&repo=100-days-of-code&hide_border=true&theme=onedark" width="46.5%" height="125">
-  <a href="https://wakatime.com/@codlipa"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=codlipa&theme=onedark&hide_border=true" width="46.5%"></a>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&hide_border=true&theme=onedark" width="46.5%" height="136">
+  <a href="https://open.spotify.com/user/hi40rt1oyr7g8sq6w6c6s1s04"><img src="https://novatorem-codlipa.vercel.app/api/spotify" width="45%"></a>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=codlipa&repo=100-days-of-code&hide_border=true&theme=onedark" width="45%" height="125">
+  <a href="https://wakatime.com/@codlipa"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=codlipa&theme=onedark&hide_border=true" width="45%"></a>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&hide_border=true&theme=onedark" width="45%" height="136">
   <!-- / Middle -->
 
   <!-- Small
