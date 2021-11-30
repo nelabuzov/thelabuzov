@@ -73,7 +73,7 @@
   </div>
   <!-- / Support -->
 
-  # GitHub Activity:
-  <!-- BLOG-POST-LIST:START -->
-  <!-- BLOG-POST-LIST:END -->
+  # Recent GitHub Activity:
+  <!--START_SECTION:activity-->
+  <!--END_SECTION:activity-->
 </div>
