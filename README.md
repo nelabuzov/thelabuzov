@@ -72,4 +72,6 @@
     <a href="https://ko-fi.com/codlipa"><img src="https://img.shields.io/badge/ko--fi-ff5e5b?logo=ko-fi&logoColor=fff&style=for-the-badge" height="30"></a>
   </div>
   <!-- / Support -->
+  
+  <!--START_SECTION:activity-->
 </div>
