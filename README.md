@@ -27,7 +27,7 @@
   <!-- / Middle -->
 
   <!-- Small -->
-  <a href="https://app.daily.dev/codlipa"><img src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png" width="320" align="left"></a>
+  <a href="https://app.daily.dev/codlipa"><img src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png" width="290" align="left"></a>
   <div align="left">
     <img src="https://img.shields.io/badge/html-e34f26?style=flat-square&logo=html5&logoColor=fff">
     <img src="https://img.shields.io/badge/figma-f24e1e?style=flat-square&logo=figma&logoColor=fff">
@@ -60,15 +60,15 @@
 
   <!-- Support -->
   <div align="left">
-    <a href="#"><img src="https://img.shields.io/badge/bitcoin-000?style=for-the-badge&logo=bitcoin" height="40"></a>
+    <a href="#"><img src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge" height="30"></a>
   </div>
   <div align="left">
-    <a href="#"><img src="https://img.shields.io/badge/paypal-00457c?style=for-the-badge&logo=paypal" height="40"></a></div>
+    <a href="#"><img src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge" height="30"></a></div>
   <div align="left">
-    <a href="https://buymeacoffee.com/codlipa"><img src="https://img.shields.io/badge/buymeacoffee-fd0?style=for-the-badge&logo=buymeacoffee&logoColor=333" height="40"></a>
+    <a href="https://buymeacoffee.com/codlipa"><img src="https://img.shields.io/badge/coffee-fd0?logo=buymeacoffee&logoColor=333&style=for-the-badge" height="30"></a>
   </div>
   <div align="left">
-    <a href="https://ko-fi.com/codlipa"><img src="https://img.shields.io/badge/ko--fi-ff5e5b?style=for-the-badge&logo=ko-fi&logoColor=fff" height="40"></a>
+    <a href="https://ko-fi.com/codlipa"><img src="https://img.shields.io/badge/ko--fi-ff5e5b?logo=ko-fi&logoColor=fff&style=for-the-badge" height="30"></a>
   </div>
   <!-- / Support -->
 </div>
