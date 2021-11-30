@@ -2,7 +2,7 @@
   <h2>Hi there <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="30"> I am <a href="https://codlipa.vercel.app">Dmitry Labuzov</a></h2>
 
   <!-- Socials -->
-  <a href="https://codlipa.vercel.app"><img src="https://img.shields.io/website?label=website&url=https%3A%2F%2Fcodlipa.vercel.app&style=for-the-badge"></a>
+  <a href="https://codlipa.vercel.app"><img src="https://img.shields.io/website?label=site&url=https%3A%2F%2Fcodlipa.vercel.app&style=for-the-badge"></a>
   <a href="https://wakatime.com/@codlipa"><img src="https://wakatime.com/badge/user/1ff16437-f20a-49f3-870e-167ec8c5088d.svg?style=for-the-badge"></a>
   <a href="https://github.com/codlipa"><img src="https://img.shields.io/github/followers/codlipa?label=github&logo=github&logoColor=fff&style=for-the-badge"></a>
   <a href="https://twitter.com/codlipa"><img src="https://img.shields.io/twitter/follow/codlipa?color=007ec6&label=twitter&logo=twitter&logoColor=fff&style=for-the-badge"></a>
