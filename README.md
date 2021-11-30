@@ -73,5 +73,7 @@
   </div>
   <!-- / Support -->
   
+  <div>
   <!--START_SECTION:activity-->
+  </div>
 </div>
