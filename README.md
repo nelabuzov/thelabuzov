@@ -59,7 +59,7 @@
   <!-- / Small -->
 
   <!-- Support -->
-  <div align="left">
+  <div align="left"><br>
     <a href="#"><img src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge" height="30"></a>
   </div>
   <div align="left">
