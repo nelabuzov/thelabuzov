@@ -55,7 +55,7 @@
   <div align="left">
     <img src="https://img.shields.io/badge/npm-cb3837?style=flat-square&logo=npm&logoColor=fff">
     <img src="https://img.shields.io/badge/gulp-cf4647?style=flat-square&logo=gulp&logoColor=fff">
-  </div><br>
+  </div>
   <!-- / Small -->
 
   <!-- Support -->
