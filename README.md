@@ -63,9 +63,10 @@
     <a href="#"><img src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge" height="30"></a>
   </div>
   <div align="left">
-    <a href="#"><img src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge" height="30"></a></div>
+    <a href="https://paypal.me/codlipa"><img src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge" height="30"></a>
+  </div>
   <div align="left">
-    <a href="https://buymeacoffee.com/codlipa"><img src="https://img.shields.io/badge/coffee-fd0?logo=buymeacoffee&logoColor=333&style=for-the-badge" height="30"></a>
+    <a href="https://bmc.xyz/codlipa"><img src="https://img.shields.io/badge/coffee-fd0?logo=buymeacoffee&logoColor=333&style=for-the-badge" height="30"></a>
   </div>
   <div align="left">
     <a href="https://ko-fi.com/codlipa"><img src="https://img.shields.io/badge/ko--fi-ff5e5b?logo=ko-fi&logoColor=fff&style=for-the-badge" height="30"></a>
