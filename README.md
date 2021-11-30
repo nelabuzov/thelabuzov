@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>Hi there <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="30"> I am <a href="https://codlipa.vercel.app">Dmitry Labuzov</a></h2>
+  <h2>Hi <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="30"> I'm Dmitry Labuzov</h2>
 
   <!-- Socials -->
   <a href="https://codlipa.vercel.app"><img src="https://img.shields.io/website?label=codlipa.vercel.app&url=https%3A%2F%2Fcodlipa.vercel.app&style=for-the-badge"></a>
