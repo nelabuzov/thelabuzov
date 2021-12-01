@@ -27,7 +27,7 @@
   <!-- / Middle -->
 
   <!-- Small -->
-  <br><a href="https://app.daily.dev/codlipa"><img src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png" width="260" align="left"></a><br>
+  <br><a href="https://app.daily.dev/codlipa"><img src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png" width="29%" align="left"></a>
 
   <div align="left">
     <img src="https://img.shields.io/badge/html-e34f26?style=flat-square&logo=html5&logoColor=fff">
