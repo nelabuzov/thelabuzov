@@ -59,10 +59,10 @@
   <!-- / Small -->
 
   <!-- Support -->
-  <br><div align="left">
+  <div align="left"><br>
     <a href="https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy"><img src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge" height="25"></a>
   </div>
-  <div align="left"><br>
+  <div align="left">
     <a href="https://blockchain.com/btc/address/0xc9cf57aef9c62bf0b3d8874480a0f56055ff6d1a"><img src="https://img.shields.io/badge/ethereum-3c3c3d?logo=ethereum&style=for-the-badge" height="25"></a>
   </div>
   <div align="left">
