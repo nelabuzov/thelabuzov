@@ -27,8 +27,9 @@
   <!-- / Middle -->
 
   <!-- Small -->
-  <br><a href="https://app.daily.dev/codlipa"><img src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png" width="31%" align="left"></a>
+  <br><a href="https://app.daily.dev/codlipa"><img src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png" width="29%" align="left"></a>
 
+  <p align="left">Skills:</p>
   <div align="left">
     <img src="https://img.shields.io/badge/html-e34f26?style=flat-square&logo=html5&logoColor=fff">
     <img src="https://img.shields.io/badge/figma-f24e1e?style=flat-square&logo=figma&logoColor=fff">
@@ -48,11 +49,12 @@
   <div align="left">
     <img src="https://img.shields.io/badge/sass-cc6699?style=flat-square&logo=sass&logoColor=fff">
     <img src="https://img.shields.io/badge/bootstrap-7952b3?style=flat-square&logo=bootstrap&logoColor=fff">
-  </div>
+  </div><br>
   <!-- / Small -->
 
   <!-- Support -->
-  <div align="left"><br>
+  <p align="left">Support:</p>
+  <div align="left">
     <a href="https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy"><img src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge" height="26"></a>
   </div>
   <div align="left">
