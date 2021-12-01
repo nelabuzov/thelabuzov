@@ -27,7 +27,8 @@
   <!-- / Middle -->
 
   <!-- Small -->
-  <br><a href="https://app.daily.dev/codlipa"><img src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png" width="260" align="left"></a>
+  <br><a href="https://app.daily.dev/codlipa"><img src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png" width="260" align="left"></a><br>
+
   <div align="left">
     <img src="https://img.shields.io/badge/html-e34f26?style=flat-square&logo=html5&logoColor=fff">
     <img src="https://img.shields.io/badge/figma-f24e1e?style=flat-square&logo=figma&logoColor=fff">
@@ -42,7 +43,7 @@
   </div>
   <div align="left">
     <img src="https://img.shields.io/badge/javascript-f7df1e?style=flat-square&logo=javascript&logoColor=000">
-    <img src="https://img.shields.io/badge/pug-a86454?style=flat-square&logo=pug&logoColor=fff">
+    <img src="https://img.shields.io/badge/gulp-cf4647?style=flat-square&logo=gulp&logoColor=fff">
   </div>
   <div align="left">
     <img src="https://img.shields.io/badge/git-f05032?style=flat-square&logo=git&logoColor=fff">
@@ -51,10 +52,6 @@
   <div align="left">
     <img src="https://img.shields.io/badge/sass-cc6699?style=flat-square&logo=sass&logoColor=fff">
     <img src="https://img.shields.io/badge/bootstrap-7952b3?style=flat-square&logo=bootstrap&logoColor=fff">
-  </div>
-  <div align="left">
-    <img src="https://img.shields.io/badge/npm-cb3837?style=flat-square&logo=npm&logoColor=fff">
-    <img src="https://img.shields.io/badge/gulp-cf4647?style=flat-square&logo=gulp&logoColor=fff">
   </div>
   <!-- / Small -->
 
