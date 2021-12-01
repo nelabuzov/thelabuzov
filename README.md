@@ -23,7 +23,7 @@
   <a href="https://open.spotify.com/user/hi40rt1oyr7g8sq6w6c6s1s04"><img src="https://novatorem-codlipa.vercel.app/api/spotify" width="49%"></a>
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=codlipa&repo=100-days-of-code&hide_border=true&theme=onedark" width="49%">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&hide_border=true&theme=onedark" width="49%" align="left">
-  <a href="https://app.daily.dev/codlipa"><img src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png" width="16%" align="left"></a>
+  <a href="https://app.daily.dev/codlipa"><img src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png" width="16.5%" align="left"></a>
   <p align="left">Languages and Tools:</p>
   <div align="left">
     <img src="https://img.shields.io/badge/photoshop-31a8ff?style=flat-square&logo=adobe-photoshop&logoColor=fff">
