@@ -60,7 +60,7 @@
 
   <!-- Support -->
   <div align="left"><br>
-    <a href="#"><img src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge" height="30"></a>
+    <a href="https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy"><img src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge" height="30"></a>
   </div>
   <div align="left">
     <a href="https://paypal.me/codlipa"><img src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge" height="30"></a>
