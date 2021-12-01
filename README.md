@@ -27,7 +27,7 @@
   <!-- / Middle -->
 
   <!-- Small -->
-  <a href="https://app.daily.dev/codlipa"><img src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png" width="31%" align="left"></a>
+  <br><a href="https://app.daily.dev/codlipa"><img src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png" width="31%" align="left"></a>
   <p align="left">Skills:</p>
   <div align="left">
     <img src="https://img.shields.io/badge/html-e34f26?style=flat-square&logo=html5&logoColor=fff">
