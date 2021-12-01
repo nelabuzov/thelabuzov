@@ -48,25 +48,25 @@
   <div align="left">
     <img src="https://img.shields.io/badge/sass-cc6699?style=flat-square&logo=sass&logoColor=fff">
     <img src="https://img.shields.io/badge/bootstrap-7952b3?style=flat-square&logo=bootstrap&logoColor=fff">
-  </div><br>
+  </div>
   <!-- / Small -->
 
   <!-- Support -->
   <p align="left">Support:</p>
   <div align="left">
-    <a href="https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy"><img src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge" height="23"></a>
+    <a href="https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy"><img src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge" height="26"></a>
   </div>
   <div align="left">
-    <a href="https://blockchain.com/eth/address/0xc9cf57aef9c62bf0b3d8874480a0f56055ff6d1a"><img src="https://img.shields.io/badge/ethereum-3c3c3d?logo=ethereum&style=for-the-badge" height="23"></a>
+    <a href="https://blockchain.com/eth/address/0xc9cf57aef9c62bf0b3d8874480a0f56055ff6d1a"><img src="https://img.shields.io/badge/ethereum-3c3c3d?logo=ethereum&style=for-the-badge" height="26"></a>
   </div>
   <div align="left">
-    <a href="https://paypal.me/codlipa"><img src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge" height="23"></a>
+    <a href="https://paypal.me/codlipa"><img src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge" height="26"></a>
   </div>
   <div align="left">
-    <a href="https://bmc.xyz/codlipa"><img src="https://img.shields.io/badge/coffee-fd0?logo=buymeacoffee&logoColor=333&style=for-the-badge" height="23"></a>
+    <a href="https://bmc.xyz/codlipa"><img src="https://img.shields.io/badge/coffee-fd0?logo=buymeacoffee&logoColor=333&style=for-the-badge" height="26"></a>
   </div>
   <div align="left">
-    <a href="https://ko-fi.com/codlipa"><img src="https://img.shields.io/badge/ko--fi-ff5e5b?logo=ko-fi&logoColor=fff&style=for-the-badge" height="23"></a>
+    <a href="https://ko-fi.com/codlipa"><img src="https://img.shields.io/badge/ko--fi-ff5e5b?logo=ko-fi&logoColor=fff&style=for-the-badge" height="26"></a>
   </div>
   <!-- / Support -->
 
