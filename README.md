@@ -56,6 +56,8 @@
   <!-- / Small -->
 
   <!--START_SECTION:activity-->
+1. ❗️ Opened issue [#3031](https://github.com/EddieHubCommunity/support/issues/3031) in [EddieHubCommunity/support](https://github.com/EddieHubCommunity/support)
+<!--END_SECTION:activity-->
 
   <h2>Support, I'll be very glad to any activity:</h2>
   <a href="https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy"><img src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge" height="40"></a>
