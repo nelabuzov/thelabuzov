@@ -22,54 +22,46 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=codlipa&hide_border=true&theme=onedark" width="49%">
   <a href="https://open.spotify.com/user/hi40rt1oyr7g8sq6w6c6s1s04"><img src="https://novatorem-codlipa.vercel.app/api/spotify" width="49%"></a>
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=codlipa&repo=100-days-of-code&hide_border=true&theme=onedark" width="49%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&hide_border=true&theme=onedark" width="49%">
-  <a href="https://wakatime.com/@codlipa"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=codlipa&theme=onedark&hide_border=true" width="49%"></a>
-  <!-- / Middle -->
-
-  <!-- Small -->
-  <a href="https://app.daily.dev/codlipa"><img src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png" width="260" align="left"></a>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&hide_border=true&theme=onedark" width="49%" align="left">
+  <a href="https://app.daily.dev/codlipa"><img src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png" width="16.5%" align="left"></a>
+  <p align="left">Languages and Tools:</p>
   <div align="left">
-    <img src="https://img.shields.io/badge/html-e34f26?style=flat-square&logo=html5&logoColor=fff">
+    <img src="https://img.shields.io/badge/photoshop-31a8ff?style=flat-square&logo=adobe-photoshop&logoColor=fff">
+    <img src="https://img.shields.io/badge/xd-ff61f6?style=flat-square&logo=adobe-xd&logoColor=fff">
     <img src="https://img.shields.io/badge/figma-f24e1e?style=flat-square&logo=figma&logoColor=fff">
   </div>
   <div align="left">
-    <img src="https://img.shields.io/badge/xd-ff61f6?style=flat-square&logo=adobe-xd&logoColor=fff">
-    <img src="https://img.shields.io/badge/photoshop-31a8ff?style=flat-square&logo=adobe-photoshop&logoColor=fff">
-  </div>
-  <div align="left">
+    <img src="https://img.shields.io/badge/html-e34f26?style=flat-square&logo=html5&logoColor=fff">
     <img src="https://img.shields.io/badge/css-1572b6?style=flat-square&logo=css3&logoColor=fff">
-    <img src="https://img.shields.io/badge/tailwind-06b6d4?style=flat-square&logo=tailwindcss&logoColor=fff">
-  </div>
-  <div align="left">
     <img src="https://img.shields.io/badge/javascript-f7df1e?style=flat-square&logo=javascript&logoColor=000">
-    <img src="https://img.shields.io/badge/pug-a86454?style=flat-square&logo=pug&logoColor=fff">
   </div>
   <div align="left">
-    <img src="https://img.shields.io/badge/git-f05032?style=flat-square&logo=git&logoColor=fff">
     <img src="https://img.shields.io/badge/markdown-000?style=flat-square&logo=markdown&logoColor=fff">
-  </div>
-  <div align="left">
     <img src="https://img.shields.io/badge/sass-cc6699?style=flat-square&logo=sass&logoColor=fff">
-    <img src="https://img.shields.io/badge/bootstrap-7952b3?style=flat-square&logo=bootstrap&logoColor=fff">
-  </div>
-  <div align="left">
-    <img src="https://img.shields.io/badge/npm-cb3837?style=flat-square&logo=npm&logoColor=fff">
     <img src="https://img.shields.io/badge/gulp-cf4647?style=flat-square&logo=gulp&logoColor=fff">
   </div>
+  <div align="left">
+    <img src="https://img.shields.io/badge/pug-a86454?style=flat-square&logo=pug&logoColor=fff">
+    <img src="https://img.shields.io/badge/git-f05032?style=flat-square&logo=git&logoColor=fff">
+    <img src="https://img.shields.io/badge/npm-cb3837?style=flat-square&logo=npm&logoColor=fff">
+  </div>
+  <div align="left">
+    <img src="https://img.shields.io/badge/tailwind-06b6d4?style=flat-square&logo=tailwindcss&logoColor=fff">
+    <img src="https://img.shields.io/badge/bootstrap-7952b3?style=flat-square&logo=bootstrap&logoColor=fff">
+  </div>
+  <!-- / Middle -->
+
+  <!-- Small -->
+  <a href="https://wakatime.com/@codlipa"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=codlipa&theme=onedark&hide_border=true" width="49%"></a>
   <!-- / Small -->
 
-  <!-- Support -->
-  <div align="left"><br>
-    <a href="#"><img src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge" height="30"></a>
-  </div>
-  <div align="left">
-    <a href="https://paypal.me/codlipa"><img src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge" height="30"></a>
-  </div>
-  <div align="left">
-    <a href="https://bmc.xyz/codlipa"><img src="https://img.shields.io/badge/coffee-fd0?logo=buymeacoffee&logoColor=333&style=for-the-badge" height="30"></a>
-  </div>
-  <div align="left">
-    <a href="https://ko-fi.com/codlipa"><img src="https://img.shields.io/badge/ko--fi-ff5e5b?logo=ko-fi&logoColor=fff&style=for-the-badge" height="30"></a>
-  </div>
-  <!-- / Support -->
+  <!--START_SECTION:activity-->
+  <!--END_SECTION:activity-->
+  
+  <h2>Support, I'll be very glad to any activity:</h2>
+  <a href="https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy"><img src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge" height="40"></a>
+  <a href="https://blockchain.com/eth/address/0xc9cf57aef9c62bf0b3d8874480a0f56055ff6d1a"><img src="https://img.shields.io/badge/ethereum-3c3c3d?logo=ethereum&style=for-the-badge" height="40"></a>
+  <a href="https://paypal.me/codlipa"><img src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge" height="40"></a>
+  <a href="https://bmc.xyz/codlipa"><img src="https://img.shields.io/badge/coffee-fd0?logo=buymeacoffee&logoColor=333&style=for-the-badge" height="40"></a>
+  <a href="https://ko-fi.com/codlipa"><img src="https://img.shields.io/badge/ko--fi-ff5e5b?logo=ko-fi&logoColor=fff&style=for-the-badge" height="40"></a>
 </div>
