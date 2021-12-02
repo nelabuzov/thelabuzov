@@ -56,8 +56,7 @@
   <!-- / Small -->
 
   <!--START_SECTION:activity-->
-  <!--END_SECTION:activity-->
-  
+
   <h2>Support, I'll be very glad to any activity:</h2>
   <a href="https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy"><img src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge" height="40"></a>
   <a href="https://blockchain.com/eth/address/0xc9cf57aef9c62bf0b3d8874480a0f56055ff6d1a"><img src="https://img.shields.io/badge/ethereum-3c3c3d?logo=ethereum&style=for-the-badge" height="40"></a>
