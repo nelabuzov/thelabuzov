@@ -18,7 +18,7 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 [<img alt="Spotify" width="49%" src="https://novatorem-codlipa.vercel.app/api/spotify">](https://open.spotify.com/user/hi40rt1oyr7g8sq6w6c6s1s04)
 [<img alt="Repo" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=codlipa&repo=100-days-of-code&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api/pin/?username=codlipa&repo=100-days-of-code&hide_border=true&theme=onedark)
 [<img align="left" alt="Top Langs" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api/top-langs/?username=codlipa&layout=compact&hide_border=true&theme=onedark)
-[<img align="left" alt="Dev Card" width="16.5%" src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png">](https://app.daily.dev/codlipa)
+[<img align="left" alt="Dev Card" width="16.9%" src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png">](https://app.daily.dev/codlipa)
 
 <div align="left">
 <p>Languages and Tools:</p>
