@@ -65,7 +65,7 @@ const codlipa = {
 
 </div>
 
-## If you want to to support me I'll be glad to feedback, thanks for visiting [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif)
+## If want to support me I'll be glad to any feedback, thanks for visiting [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif)
 [<img alt="Ko-fi" height="30" src="https://img.shields.io/badge/ko--fi-ff5e5b?logo=ko-fi&logoColor=fff&style=for-the-badge">](https://ko-fi.com/codlipa)
 [<img alt="Buy Me a Coffee" height="30" src="https://img.shields.io/badge/coffee-fd0?logo=buymeacoffee&logoColor=333&style=for-the-badge">](https://bmc.xyz/codlipa)
 [<img alt="PayPal" height="30" src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge">](https://paypal.me/codlipa)
