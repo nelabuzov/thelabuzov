@@ -40,8 +40,8 @@
 
   </div>
 
-  [<img alt="Latest Tweets" width="49%" src="https://github-readme-twitter-gazf.vercel.app/api?id=codlipa&layout=wide&show_border=off&">](https://twitter.com/codlipa)
-  [<img alt="WakaTime Stats" width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=codlipa&theme=onedark&hide_border=true">](https://wakatime.com/@codlipa)
+  [<img alt="Latest Tweets" width="51%" src="https://github-readme-twitter-gazf.vercel.app/api?id=codlipa&layout=wide">](https://twitter.com/codlipa)
+  [<img alt="WakaTime Stats" width="47%" src="https://github-readme-stats.vercel.app/api/wakatime?username=codlipa&theme=onedark&hide_border=true">](https://wakatime.com/@codlipa)
   [<img alt="Bitcoin" height="40" src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge">](https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy)
   [<img alt="Ethereum" height="40" src="https://img.shields.io/badge/ethereum-3c3c3d?logo=ethereum&style=for-the-badge">](https://blockchain.com/eth/address/0xc9cf57aef9c62bf0b3d8874480a0f56055ff6d1a)
   [<img alt="PayPal" height="40" src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge">](https://paypal.me/codlipa)
