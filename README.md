@@ -12,7 +12,6 @@
 
   ![Profile Banner](https://user-images.githubusercontent.com/87143407/143772237-a3b5607b-75b1-4a58-88aa-90136ea7fb19.jpg)
   ![Activity Graph](https://activity-graph.herokuapp.com/graph?username=codlipa&bg_color=282c34&color=e3be79&line=e3be79&point=df6d74&hide_border=true)
-  [<img alt="Profile Trophy" width="100%" src="https://github-profile-trophy.vercel.app/?username=codlipa&no-frame=true&theme=onedark">](https://github-profile-trophy.vercel.app/?username=codlipa&no-frame=true&theme=onedark)
   [<img alt="Stats" width="49%" src="https://github-readme-stats.vercel.app/api?username=codlipa&show_icons=true&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api?username=codlipa&show_icons=true&hide_border=true&theme=onedark)
   [<img alt="Streak Stats" width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=codlipa&hide_border=true&theme=onedark">](https://github-readme-streak-stats.herokuapp.com/?user=codlipa&hide_border=true&theme=onedark)
   [<img alt="Spotify" width="49%" src="https://novatorem-codlipa.vercel.app/api/spotify">](https://open.spotify.com/user/hi40rt1oyr7g8sq6w6c6s1s04)
@@ -41,6 +40,7 @@
 
   [<img alt="Latest Tweets" width="49%" src="https://github-readme-twitter-gazf.vercel.app/api?id=codlipa&layout=wide">](https://twitter.com/codlipa)
   [<img alt="WakaTime Stats" width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=codlipa&theme=onedark&hide_border=true">](https://wakatime.com/@codlipa)
+  [<img alt="Profile Trophy" width="100%" src="https://github-profile-trophy.vercel.app/?username=codlipa&no-frame=true&theme=onedark">](https://github-profile-trophy.vercel.app/?username=codlipa&no-frame=true&theme=onedark)
 
   ## If you want to to support me I'll be glad to feedback, thanks for visiting [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif)
   [<img alt="Ko-fi" height="30" src="https://img.shields.io/badge/ko--fi-ff5e5b?logo=ko-fi&logoColor=fff&style=for-the-badge">](https://ko-fi.com/codlipa)
