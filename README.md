@@ -42,7 +42,7 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 
 [<img align="right" alt="WakaTime Stats" width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=codlipa&theme=onedark&hide_border=true">](https://wakatime.com/@codlipa)
 
-<h4 align="left" width="49%">
+<h5 align="left" width="49%">
 
 ```javascript
 const codlipa = {
@@ -54,11 +54,12 @@ const codlipa = {
    		helper: "CodeNewbie"
 	},
 	architecture: ["PWA", "SPA"],
+	currentFocus: "Frontend Development",
 	funFact: "You're the best friends I ever had"
 };
 ```
 
-</h4>
+</h5>
 
 ## If you want to to support me I'll be glad to feedback, thanks for visiting [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif)
 [<img alt="Ko-fi" height="30" src="https://img.shields.io/badge/ko--fi-ff5e5b?logo=ko-fi&logoColor=fff&style=for-the-badge">](https://ko-fi.com/codlipa)
