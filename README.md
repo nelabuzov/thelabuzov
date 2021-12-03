@@ -39,7 +39,7 @@
 
   </div>
 
-  [<img alt="WakaTime Stats" width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=codlipa&theme=onedark&hide_border=true">](https://wakatime.com/@codlipa)
+  [<img align="left" alt="WakaTime Stats" width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=codlipa&theme=onedark&hide_border=true">](https://wakatime.com/@codlipa)
   [<img alt="Latest Tweets" width="49%" src="https://github-readme-twitter-gazf.vercel.app/api?id=codlipa&layout=wide">](https://twitter.com/codlipa)
   
   ## If you want to to support me I'll be glad to feedback, thanks for visiting [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif)
