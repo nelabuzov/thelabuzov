@@ -1,6 +1,6 @@
 <div align="center">
 
-## Hello [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif) I'm Dmitry Labuzov
+# Hello [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif) I'm Dmitry Labuzov
 
 [![Website](https://img.shields.io/website?label=codlipa.vercel.app&url=https%3A%2F%2Fcodlipa.vercel.app&style=for-the-badge)](https://codlipa.vercel.app)
 [![WakaTime](https://wakatime.com/badge/user/1ff16437-f20a-49f3-870e-167ec8c5088d.svg?style=for-the-badge)](https://wakatime.com/@codlipa)
@@ -21,7 +21,7 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 [<img align="left" alt="Dev Card" width="16.9%" src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png">](https://app.daily.dev/codlipa)
 
 <div align="left">
-<p>Languages and Tools:</p>
+<p>Languages and Tools</p>
 
 ![Adobe Photoshop](https://img.shields.io/badge/photoshop-31a8ff?style=flat-square&logo=adobe-photoshop&logoColor=fff)
 ![Adobe XD](https://img.shields.io/badge/xd-ff61f6?style=flat-square&logo=adobe-xd&logoColor=fff)
@@ -64,12 +64,12 @@ const codlipa = {
 
 </div>
 
-## If want to support me I'll be glad to any feedback, thanks for visiting [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif)
+## If want to support me I'll be glad to any feedback! Thanks for visiting [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif)
+
 [<img alt="Ko-fi" height="30" src="https://img.shields.io/badge/ko--fi-ff5e5b?logo=ko-fi&logoColor=fff&style=for-the-badge">](https://ko-fi.com/codlipa)
 [<img alt="Buy Me a Coffee" height="30" src="https://img.shields.io/badge/coffee-fd0?logo=buymeacoffee&logoColor=333&style=for-the-badge">](https://bmc.xyz/codlipa)
 [<img alt="PayPal" height="30" src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge">](https://paypal.me/codlipa)
 [<img alt="Ethereum" height="30" src="https://img.shields.io/badge/ethereum-3c3c3d?logo=ethereum&style=for-the-badge">](https://blockchain.com/eth/address/0xc9cf57aef9c62bf0b3d8874480a0f56055ff6d1a)
 [<img alt="Bitcoin" height="30" src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge">](https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy)
-[<img alt="Visitor Count" height="30" src="https://profile-counter.glitch.me/codlipa/count.svg">](https://profile-counter.glitch.me/codlipa/count.svg)
 
 </div>
