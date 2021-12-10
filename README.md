@@ -8,9 +8,9 @@
 [![LinkedIn](https://img.shields.io/badge/linkedin-555?logo=linkedin&logoColor=fff&style=for-the-badge)](https://linkedin.com/in/codlipa)
 [![CodePen](https://img.shields.io/badge/codepen-555?logo=codepen&logoColor=fff&style=for-the-badge)](https://codepen.io/codlipa) 
 
-Daily working with websites & writing about it 💛 I'm motivated member of community, #100DaysOfCode 🔥 Follow for DEV sources.
+Daily working with websites & writing about it 🤍 I'm motivated member of community, #100DaysOfCode 🔥 Follow for DEV sources.
 
-![Profile Banner](https://user-images.githubusercontent.com/87143407/143772237-a3b5607b-75b1-4a58-88aa-90136ea7fb19.jpg)
+![Profile Banner](https://user-images.githubusercontent.com/87143407/145601029-1d630e2f-397b-415e-afbc-3c2fc79d1da0.png)
 ![Activity Graph](https://activity-graph.herokuapp.com/graph?username=codlipa&bg_color=282c34&color=e3be79&line=e3be79&point=df6d74&hide_border=true)
 [<img alt="Profile Trophy" width="100%" src="https://github-profile-trophy.vercel.app/?username=codlipa&no-frame=true&theme=onedark">](https://github-profile-trophy.vercel.app/?username=codlipa&no-frame=true&theme=onedark)
 [<img alt="Stats" width="49%" src="https://github-readme-stats.vercel.app/api?username=codlipa&show_icons=true&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api?username=codlipa&show_icons=true&hide_border=true&theme=onedark)
