@@ -8,7 +8,7 @@
 [![LinkedIn](https://img.shields.io/badge/linkedin-555?logo=linkedin&logoColor=fff&style=for-the-badge)](https://linkedin.com/in/codlipa)
 [![CodePen](https://img.shields.io/badge/codepen-555?logo=codepen&logoColor=fff&style=for-the-badge)](https://codepen.io/codlipa) 
 
-Daily working with websites & writing about it ❤ I'm motivated member of community, #100DaysOfCode 🧩 Follow for DEV sources.
+Daily working with websites & writing about it 💖 I'm motivated member of community, #100DaysOfCode 🧩 Follow for DEV sources.
 
 ![Profile Banner](https://user-images.githubusercontent.com/87143407/145674513-0a515c4a-6ad8-4398-80a8-494bdd7a5a28.png)
 ![Activity Graph](https://activity-graph.herokuapp.com/graph?username=codlipa&bg_color=282c34&color=e3be79&line=e3be79&point=df6d74&hide_border=true)
