@@ -10,7 +10,7 @@
 
 Daily working with websites & writing about it 💛 I'm motivated member of community, #100DaysOfCode 🔥 Follow for DEV sources.
 
-![Profile Banner](https://user-images.githubusercontent.com/87143407/145674513-0a515c4a-6ad8-4398-80a8-494bdd7a5a28.png)
+![Profile Banner](https://user-images.githubusercontent.com/87143407/147220063-2055d968-4a6d-4a11-a55a-bab13a3185b7.png)
 ![Activity Graph](https://activity-graph.herokuapp.com/graph?username=codlipa&bg_color=282c34&color=e3be79&line=e3be79&point=df6d74&hide_border=true)
 [<img alt="Profile Trophy" width="100%" src="https://github-profile-trophy.vercel.app/?username=codlipa&no-frame=true&theme=onedark">](https://github-profile-trophy.vercel.app/?username=codlipa&no-frame=true&theme=onedark)
 [<img alt="Stats" width="49%" src="https://github-readme-stats.vercel.app/api?username=codlipa&show_icons=true&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api?username=codlipa&show_icons=true&hide_border=true&theme=onedark)
