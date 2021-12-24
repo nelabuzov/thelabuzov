@@ -2,11 +2,11 @@
 
 ## Hello [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif) I'm Dmitry Labuzov
 
-[![Website](https://img.shields.io/website?label=codlipa.vercel.app&url=https%3A%2F%2Fcodlipa.vercel.app&style=for-the-badge)](https://codlipa.vercel.app)
-[![WakaTime](https://wakatime.com/badge/user/1ff16437-f20a-49f3-870e-167ec8c5088d.svg?style=for-the-badge)](https://wakatime.com/@codlipa)
-[![Twitter](https://img.shields.io/twitter/follow/thelabuzov?color=007ec6&label=twitter&logo=twitter&logoColor=fff&style=for-the-badge)](https://twitter.com/codlipa)
-[![LinkedIn](https://img.shields.io/badge/linkedin-555?logo=linkedin&logoColor=fff&style=for-the-badge)](https://linkedin.com/in/codlipa)
-[![CodePen](https://img.shields.io/badge/codepen-555?logo=codepen&logoColor=fff&style=for-the-badge)](https://codepen.io/codlipa) 
+[![Website](https://img.shields.io/website?label=thelabuzov.vercel.app&url=https%3A%2F%2Fthelabuzov.vercel.app&style=for-the-badge)](https://thelabuzov.vercel.app)
+[![WakaTime](https://wakatime.com/badge/user/1ff16437-f20a-49f3-870e-167ec8c5088d.svg?style=for-the-badge)](https://wakatime.com/@thelabuzov)
+[![Twitter](https://img.shields.io/twitter/follow/thelabuzov?color=007ec6&label=twitter&logo=twitter&logoColor=fff&style=for-the-badge)](https://twitter.com/thelabuzov)
+[![LinkedIn](https://img.shields.io/badge/linkedin-555?logo=linkedin&logoColor=fff&style=for-the-badge)](https://linkedin.com/in/thelabuzov)
+[![CodePen](https://img.shields.io/badge/codepen-555?logo=codepen&logoColor=fff&style=for-the-badge)](https://codepen.io/thelabuzov)
 
 Daily working with websites & writing about it 💛 I'm motivated member of community, #100DaysOfCode 🔥 Follow for DEV sources.
 
