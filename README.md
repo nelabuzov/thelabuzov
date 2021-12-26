@@ -6,9 +6,9 @@
 [![WakaTime](https://wakatime.com/badge/user/1ff16437-f20a-49f3-870e-167ec8c5088d.svg?style=for-the-badge)](https://wakatime.com/@thelabuzov)
 [![Twitter](https://img.shields.io/twitter/follow/thelabuzov?color=007ec6&label=twitter&logo=twitter&logoColor=fff&style=for-the-badge)](https://twitter.com/thelabuzov)
 
-Daily working with websites & writing about it 💛 I'm motivated member of community, #100DaysOfCode 🔥 Follow for DEV sources.
+Daily working with websites & writing about it 💛 I'm motivated member of community, #100DaysOfCode 🔥 Follow for DEV sources
 
-![Profile Banner](https://user-images.githubusercontent.com/87143407/147228239-22e84dd0-8d48-4a88-a4b6-9ab1c16cd76b.png)
+![Profile Banner](https://user-images.githubusercontent.com/87143407/147415512-a4d69133-2961-449c-aee0-464a4996fa29.png)
 ![Activity Graph](https://activity-graph.herokuapp.com/graph?username=thelabuzov&bg_color=282c34&color=e3be79&line=e3be79&point=df6d74&hide_border=true)
 [<img alt="Profile Trophy" width="100%" src="https://github-profile-trophy.vercel.app/?username=thelabuzov&no-frame=true&theme=onedark">](https://github-profile-trophy.vercel.app/?username=thelabuzov&no-frame=true&theme=onedark)
 [<img alt="Stats" width="49%" src="https://github-readme-stats.vercel.app/api?username=thelabuzov&show_icons=true&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api?username=thelabuzov&show_icons=true&hide_border=true&theme=onedark)
