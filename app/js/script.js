@@ -35,16 +35,28 @@ progress.addEventListener('click', () => {
 })
 
 // Theme
-function audio() {
-	var audio = document.createElement("audio")
-	audio.setAttribute("autoplay", "true")
-	audio.innerHTML = "<source src='./app/audio/theme.webm' type='audio/mpeg'>"
+var audio = document.createElement('audio')
+var volume = document.getElementById('volume')
+
+function unmute() {
+	audio.setAttribute('autoplay', 'true')
+	audio.innerHTML = '<source src="./app/audio/theme.webm" type="audio/mpeg">'
 	document.body.appendChild(audio)
 }
 
+function mute() {
+	if (audio.muted === false, volume.src.match('unmute')) {
+		volume.src = './images/tools/mute.png'
+		audio.muted = true
+	} else {
+		volume.src = './images/tools/unmute.png'
+		audio.muted = false
+	}
+}
+
 function display() {
-	var display = document.getElementById("click")
-	display.style.display = "none"
+	var display = document.getElementById('click')
+	display.style.display = 'none'
 }
 
 // Typed
