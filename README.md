@@ -54,7 +54,7 @@ const codlipa = {
    		helper: "CodeNewbie"
 	},
 	architecture: ["PWA", "SPA"],
-	currentFocus: "Frontend Development",
+	currentFocus: "FrontEnd Development",
 	funFact: "You're the best friends I ever had"
 }
 ```
