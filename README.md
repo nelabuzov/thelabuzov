@@ -45,7 +45,7 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 <h4 align="left" width="49%">
 
 ```javascript
-const codlipa = {
+const thelabuzov = {
 	pronouns: "He" | "Him",
 	code: ["HTML", "CSS", "JavaScript", "Git"],
 	tools: ["SCSS", "Tailwind CSS", "Bootstrap"],
