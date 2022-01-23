@@ -19,13 +19,11 @@
 }
 
 #volume {
-	position: absolute;
-	top: rem(14);
-	left: rem(14);
-	z-index: 1;
 
 	@include breakpoint(large) {
 		position: fixed;
+		top: rem(14);
+		left: rem(14);
 	}
 }
 
