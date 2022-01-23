@@ -8,8 +8,10 @@
 		@include breakpoint(large) { text-align: left }
 
 		.social {
-			margin-top: rem(60);
 			line-height: 1.6;
+			margin-top: rem(10);
+
+			@include breakpoint(large) { margin-top: rem(60) }
 		}
 	}
 }
