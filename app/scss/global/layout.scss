@@ -21,7 +21,7 @@
 #volume {
 
 	@include breakpoint(large) {
-		position: fixed;
+		position: absolute;
 		top: rem(14);
 		left: rem(14);
 	}

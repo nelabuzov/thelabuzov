@@ -2,16 +2,14 @@
 
 // Section
 .section {
-	
+
 	.one & { text-align: center;
 
 		@include breakpoint(large) { text-align: left }
 
 		.social {
-			margin-top: rem(20);
+			margin-top: rem(60);
 			line-height: 1.6;
-
-			@include breakpoint(large) { margin-top: rem(60) }
 		}
 	}
 }
