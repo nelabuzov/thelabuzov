@@ -79,7 +79,6 @@
 // Hero
 .hero {
 	display: none;
-	position: relative;
 	min-height: 100vh;
 
 	@include breakpoint(large) {
@@ -87,28 +86,37 @@
 		align-items: end;
 	}
 
-	&::before {
-		content: '';
+	&__image {
 		position: relative;
 		left: 0;
 		bottom: rem(-38);
 		min-height: rem(392);
 		min-width: rem(738);
-		transform: rotate(0);
 		background: url('../images/console.webp') no-repeat 50% / contain;
-	}
 
-	&::after {
-		content: '';
-		display: none;
-		position: absolute;
-		left: 24%;
-		bottom: rem(245);
-		min-width: rem(500);
-		min-height: rem(425);
-		transform: scaleX(-1);
-		background: url('../images/avatar.webp') no-repeat 50% / contain;
+		&::before,
+		&::after {
+			content: '';
+			position: absolute;
+			background: no-repeat 50% / contain;
+		}
 
-		@include breakpoint(large) { display: block }
+		&::before {
+			left: 26%;
+			bottom: rem(283);
+			min-width: rem(500);
+			min-height: rem(425);
+			transform: scaleX(-1);
+			background-image: url('../images/avatar.webp');
+		}
+
+		&::after {
+			top: 50%;
+			left: 50%;
+			min-width: 100%;
+			min-height: 20%;
+			transform: translate(-50%, -50%);
+			background-image: url('../images/vercel.svg');
+		}
 	}
 }
