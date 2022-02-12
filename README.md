@@ -2,7 +2,7 @@
 
 ## Hello [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif) I'm Dmitry Labuzov
 
-[![Website](https://img.shields.io/website?label=thelabuzov.vercel.app&url=https://thelabuzov.vercel.app&style=for-the-badge)](https://thelabuzov.vercel.app)
+[![Website](https://img.shields.io/website?label=labuzov.vercel.app&url=https://labuzov.vercel.app&style=for-the-badge)](https://labuzov.vercel.app)
 [![WakaTime](https://wakatime.com/badge/user/1ff16437-f20a-49f3-870e-167ec8c5088d.svg?style=for-the-badge)](https://wakatime.com/@thelabuzov)
 [![Twitter](https://img.shields.io/twitter/follow/thelabuzov?color=007ec6&label=twitter&logo=twitter&logoColor=fff&style=for-the-badge)](https://twitter.com/thelabuzov)
 
