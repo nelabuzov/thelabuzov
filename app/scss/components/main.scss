@@ -12,6 +12,24 @@
 			margin-top: rem(10);
 
 			@include breakpoint(large) { margin-top: rem(60) }
+
+			&__inner {
+				display: inline-flex;
+				flex-direction: column;
+				align-items: start;
+
+				// ? Maybe adapt for phone S
+				@include breakpoint-down(large) { font-size: rem(20) }
+	
+				&:first-child {
+					margin: 0 rem(85) rem(10) 0;
+				}
+			}
+
+			&__box {
+				position: relative;
+				left: rem(-12);
+			}
 		}
 	}
 }
@@ -84,39 +102,5 @@
 	@include breakpoint(large) {
 		display: flex;
 		align-items: end;
-	}
-
-	&__image {
-		position: relative;
-		left: 0;
-		bottom: rem(-38);
-		min-height: rem(392);
-		min-width: rem(738);
-		background: url('../images/console.webp') no-repeat 50% / contain;
-
-		&::before,
-		&::after {
-			content: '';
-			position: absolute;
-			background: no-repeat 50% / contain;
-		}
-
-		&::before {
-			left: 26%;
-			bottom: rem(283);
-			min-width: rem(500);
-			min-height: rem(425);
-			transform: scaleX(-1);
-			background-image: url('../images/avatar.webp');
-		}
-
-		&::after {
-			top: 50%;
-			left: 50%;
-			min-width: 100%;
-			min-height: 20%;
-			transform: translate(-50%, -50%);
-			background-image: url('../images/vercel.svg');
-		}
 	}
 }

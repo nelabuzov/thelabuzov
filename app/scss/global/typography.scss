@@ -6,13 +6,12 @@ a {
 	position: relative;
 	color: var(--white);
 	text-decoration: none;
-	cursor: url('../images/tools/pointer.cur'), auto;
+	cursor: url('../images/tools/person.cur'), auto;
 
-	&:not(.portfolio__link) {
-		color: var(--aqua);
-		transition: var(--transition-min);
+	&:not(.title, .portfolio__link) {
 		text-shadow: 0 0 rem(10) var(--aqua);
-		cursor: url('../images/tools/person.cur'), auto;
+		transition: var(--transition-min);
+		color: var(--aqua);
 
 		&:hover {
 			color: var(--cherry);
@@ -21,7 +20,7 @@ a {
 	}
 }
 
-#click { cursor: url('../images/tools/link.cur'), auto }
+#click, #volume { cursor: url('../images/tools/link.cur'), auto }
 
 .links { font-size: 0;
 
@@ -30,21 +29,6 @@ a {
 		@include breakpoint(large) {
 			display: inline-flex;
 			flex-direction: column;
-		}
-
-		div {
-			display: inline-flex;
-			flex-direction: column;
-			align-items: start;
-
-			&:first-child {
-				margin: 0 rem(85) rem(10) 0;
-			}
-
-			p {
-				position: relative;
-				left: rem(-10);
-			}
 		}
 	}
 

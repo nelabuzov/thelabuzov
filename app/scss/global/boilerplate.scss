@@ -25,10 +25,10 @@ body {
 .title {
 	display: inline-block;
 	position: relative;
+	font-weight: 700;
 	font-size: rem(52.5);
 	margin-bottom: rem(10);
 	transform: translateX(0);
-	cursor: url('../images/tools/alternate.cur'), auto;
 
 	@include breakpoint(large) { font-size: rem(75) }
 
