@@ -3,12 +3,10 @@
 // Timeline
 .timeline {
 	display: flex;
-	margin: 0 auto;
 	align-items: center;
 	text-align: center;
 	padding: rem(60) 0 0;
 	flex-direction: column;
-	background-color: var(--dark-gray);
 
 	@include breakpoint(large) {
 		display: grid;
@@ -28,7 +26,12 @@
 			border-radius: rem(10);
 			max-width: rem(680);
 
-			@include breakpoint(large) { margin-bottom: rem(25) }
+			@include breakpoint(large) {
+				margin-bottom: rem(25);
+				max-width: rem(270);
+			}
+
+			&:nth-child(4) .link { cursor: url('../images/tools/link.cur'), auto }
 		}
 	}
 
