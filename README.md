@@ -54,7 +54,7 @@ const thelabuzov = {
    		helper: "CodeNewbie"
 	},
 	architecture: ["PWA", "SPA"],
-	currentFocus: "FrontEnd Development",
+	currentFocus: "Frontend Development",
 	funFact: "You're the best friends I ever had"
 }
 ```
