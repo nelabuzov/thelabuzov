@@ -1,361 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Portfolio Website | Labuzov</title>
 
-		<!-- SEO -->
-		<meta name="description" content="Creating websites using HTML, CSS and light JavaScript">
-		<meta name="keywords" content="FrontEnd, Websites, HTML, CSS, JavaScript">
-		<meta name="author" content="thelabuzov">
-		<meta name="copyright" content="Dmitry Labuzov">
-		<meta property="og:title" content="Portfolio Website | Labuzov">
-		<meta property="og:description" content="Creating websites using HTML, CSS and light JavaScript">
-		<meta property="og:image" content="./images/promo.webp">
-		<meta property="og:site_name" content="Portfolio Website | Labuzov">
-		<meta name="twitter:site" content="thelabuzov">
-		<meta name="twitter:title" content="Portfolio Website | Labuzov">
-		<meta name="twitter:description" content="Creating websites using HTML, CSS and light JavaScript">
-		<meta name="twitter:image" content="./images/promo.webp">
-		<!-- / SEO -->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Website | Labuzov</title>
 
-		<!-- Imports -->
-		<link rel="shortcut icon" href="./images/tools/favicon.ico">
-		<link rel="stylesheet" href="./dist/style.css">
-		<script src="./dist/script.js" defer></script>
-		<!-- / Imports -->
-	</head>
+	<!-- SEO -->
+	<meta name="description" content="Creating websites using HTML, CSS and light JavaScript">
+	<meta name="keywords" content="Frontend, Websites, HTML, CSS, JavaScript">
+	<meta name="author" content="thelabuzov">
+	<meta name="copyright" content="Dmitry Labuzov">
+	<meta property="og:title" content="Portfolio Website | Labuzov">
+	<meta property="og:description" content="Creating websites using HTML, CSS and light JavaScript">
+	<meta property="og:image" content="./images/promo.webp">
+	<meta property="og:site_name" content="Portfolio Website | Labuzov">
+	<meta name="twitter:site" content="thelabuzov">
+	<meta name="twitter:title" content="Portfolio Website | Labuzov">
+	<meta name="twitter:description" content="Creating websites using HTML, CSS and light JavaScript">
+	<meta name="twitter:image" content="./images/promo.webp">
+	<!-- / SEO -->
 
-	<body>
-		<div id="click" onclick="unmute(); display()"></div>
+	<!-- Imports -->
+	<link rel="shortcut icon" href="./images/tools/favicon.ico">
+	<link rel="stylesheet" href="./dist/style.css">
+	<script src="./dist/script.js" defer></script>
+	<!-- / Imports -->
+</head>
 
-		<!-- Horizontal -->
-		<div class="wrapper">
-			<div class="wrapper__inner">
+<body>
+	<div id="click" onclick="unmute(); display()"></div>
 
-				<!-- Slide -->
-				<div class="slide one">
-					<div class="container">
+	<!-- Horizontal -->
+	<div class="wrapper">
+		<div class="wrapper__inner">
 
-						<!-- Section -->
-						<section class="section">
-							<div class="links">
-								<a id="about" href="#">About</a>
-								<a id="progress" href="#">Progress</a>
-							</div>
+			<!-- Slide -->
+			<div class="slide one">
+				<div class="container">
 
-							<main>
-								<a class="title" href="https://etherscan.io/address/thelabuzov.eth" target="_blank">thelabuzov.eth</a>
-								<h2 class="subtitle subtitle--gradient">I'm a <span id="animate"></span></h2>
+					<!-- Section -->
+					<section class="section">
+						<div class="links">
+							<a id="about" href="#">About</a>
+							<a id="progress" href="#">Progress</a>
+						</div>
 
-								<img id="volume" onclick="unmute(); mute()" src="./images/tools/unmute.png"></img>
+						<main>
+							<a class="title" href="https://etherscan.io/address/thelabuzov.eth" target="_blank">thelabuzov.eth</a>
+							<h2 class="subtitle subtitle--gradient">I'm a <span id="animate"></span></h2>
 
-								<div class="social">
-									<h3 class="subtitle">Find me online:</h3>
-									<div class="links--vertical">
-										<div class="social__inner">
-											<div class="social__box">💻</div>
-											<div>
-												<span>∟📂 </span><a href="https://twitter.com/thelabuzov" target="_blank">Twitter</a>
-												<span>| </span><a href="https://linkedin.com/in/thelabuzov" target="_blank">LinkedIn</a>
-											</div>
-											<div>
-												<span>∟📂 </span><a href="https://github.com/thelabuzov" target="_blank">GitHub</a>
-												<span>| </span><a href="https://codepen.io/thelabuzov" target="_blank">CodePen</a>
-											</div>
+							<img id="volume" onclick="unmute(); mute()" src="./images/tools/unmute.png"></img>
+
+							<div class="social">
+								<h3 class="subtitle">Find me online:</h3>
+								<div class="links--vertical">
+									<div class="social__inner">
+										<div class="social__box">💻</div>
+										<div>
+											<span>∟📂 </span><a href="https://twitter.com/thelabuzov" target="_blank">Twitter</a>
+											<span>| </span><a href="https://linkedin.com/in/thelabuzov" target="_blank">LinkedIn</a>
 										</div>
+										<div>
+											<span>∟📂 </span><a href="https://github.com/thelabuzov" target="_blank">GitHub</a>
+											<span>| </span><a href="https://codepen.io/thelabuzov" target="_blank">CodePen</a>
+										</div>
+									</div>
 
-										<div class="social__inner">
-											<div class="social__box">👨</div>
-											<div>
-												<span>∟📂 </span><a href="https://fb.com/thelabuzov" target="_blank">Facebook</a>
-												<span>| </span><a href="https://instagr.am/thelabuzov" target="_blank">Instagram</a>
-											</div>
-											<div>
-												<span>∟📂 </span><a href="https://youtube.com/channel/UC6m4k44i6BINqr-m9FEwmWg" target="_blank">YouTube</a>
-												<span>| </span><a href="https://gumroad.com/thelabuzov" target="_blank">Gumroad</a>
-											</div>
+									<div class="social__inner">
+										<div class="social__box">👨</div>
+										<div>
+											<span>∟📂 </span><a href="https://fb.com/thelabuzov" target="_blank">Facebook</a>
+											<span>| </span><a href="https://instagr.am/thelabuzov" target="_blank">Instagram</a>
+										</div>
+										<div>
+											<span>∟📂 </span><a href="https://youtube.com/channel/UC6m4k44i6BINqr-m9FEwmWg"
+												target="_blank">YouTube</a>
+											<span>| </span><a href="https://gumroad.com/thelabuzov" target="_blank">Gumroad</a>
 										</div>
 									</div>
 								</div>
-							</main>
-						</section>
-						<!-- / Section -->
-
-						<!-- Timeline -->
-						<div class="timeline scroll">
-							<div class="timeline__component">
-								<div class="timeline__date timeline__date--right">October 2016</div>
 							</div>
+						</main>
+					</section>
+					<!-- / Section -->
 
-							<div class="timeline__middle">
-								<div class="timeline__point"></div>
-							</div>
-
-							<div class="timeline__component timeline__component--bg">
-								<h2 class="subtitle">SPE STI NUST MISIS</h2>
-								<p class="paragraph">
-									🔥 On the course I got acquainted with the FrontEnd began to learn the basics & found favorite job
-								</p>
-							</div>
-
-							<div class="timeline__component timeline__component--bg">
-								<h2 class="subtitle">SOCIAL MEDIA</h2>
-								<p class="paragraph">
-									Created <a class="link" href="/">Labuzov</a> pseudonym after long practice. I start to share experience & share tips with all programmers, DEV's
-								</p>
-							</div>
-
-							<div class="timeline__middle">
-								<div class="timeline__point"></div>
-							</div>
-
-							<div class="timeline__component">
-								<div class="timeline__date">August 2020</div>
-							</div>
-
-							<div class="timeline__component">
-								<div class="timeline__date timeline__date--right">September 2020</div>
-							</div>
-
-							<div class="timeline__middle">
-								<div class="timeline__point"></div>
-							</div>
-
-							<div class="timeline__component timeline__component--bg">
-								<h2 class="subtitle">OPC STI NUST MISIS</h2>
-								<p class="paragraph">
-									🧑‍💻 Went to college as DEV in order to unlearn specialty & create connections with developers
-								</p>
-							</div>
-
-							<div class="timeline__component timeline__component--bg">
-								<h2 class="subtitle">FREELANCE</h2>
-								<p class="paragraph">
-									Became a <a class="link" href="https://freelancer.com/u/codlipa" target="_blank">Freelancer</a> & started practicing here. After switched to <a class="link" href="https://fiverr.com/codlipa" target="_blank">Fiverr</a> & <a class="link" href="/">Upwork</a>, you can contact me
-								</p>
-							</div>
-
-							<div class="timeline__middle">
-								<div class="timeline__point"></div>
-								<div class="timeline__point timeline__point--bottom"></div>
-							</div>
-
-							<div class="timeline__component">
-								<div class="timeline__date timeline__date--bottom">November 2021</div>
-							</div>
+					<!-- Timeline -->
+					<div class="timeline scroll">
+						<div class="timeline__component">
+							<div class="timeline__date timeline__date--right">October 2016</div>
 						</div>
-						<!-- / Timeline -->
 
-					</div>
-				</div>
-				<!-- / Slide -->
-
-				<!-- Slide -->
-				<div class="slide two">
-					<div class="container container__portfolio">
-
-						<!-- Timeline -->
-						<div class="timeline scroll">
-							<div class="timeline__component">
-								<div class="timeline__date timeline__date--right">October 2016</div>
-							</div>
-
-							<div class="timeline__middle">
-								<div class="timeline__point"></div>
-							</div>
-
-							<div class="timeline__component timeline__component--bg">
-								<h2 class="subtitle">SPE STI NUST MISIS</h2>
-								<p class="paragraph">
-									🔥 On the course I got acquainted with the FrontEnd began to learn the basics & found favorite job
-								</p>
-							</div>
-
-							<div class="timeline__component timeline__component--bg">
-								<h2 class="subtitle">SOCIAL MEDIA</h2>
-								<p class="paragraph">
-									Created <a class="link" href="/">Labuzov</a> pseudonym after long practice. I start to share experience & share tips with all programmers, DEV's
-								</p>
-							</div>
-
-							<div class="timeline__middle">
-								<div class="timeline__point"></div>
-							</div>
-
-							<div class="timeline__component">
-								<div class="timeline__date">August 2020</div>
-							</div>
-
-							<div class="timeline__component">
-								<div class="timeline__date timeline__date--right">September 2020</div>
-							</div>
-
-							<div class="timeline__middle">
-								<div class="timeline__point"></div>
-							</div>
-
-							<div class="timeline__component timeline__component--bg">
-								<h2 class="subtitle">OPC STI NUST MISIS</h2>
-								<p class="paragraph">
-									🧑‍💻 Went to college as DEV in order to unlearn specialty & create connections with developers
-								</p>
-							</div>
-
-							<div class="timeline__component timeline__component--bg">
-								<h2 class="subtitle">FREELANCE</h2>
-								<p class="paragraph">
-									Became a <a class="link" href="https://freelancer.com/u/codlipa" target="_blank">Freelancer</a> & started practicing here. After switched to <a class="link" href="https://fiverr.com/codlipa" target="_blank">Fiverr</a> & <a class="link" href="/">Upwork</a>, you can contact me
-								</p>
-							</div>
-
-							<div class="timeline__middle">
-								<div class="timeline__point"></div>
-								<div class="timeline__point timeline__point--bottom"></div>
-							</div>
-
-							<div class="timeline__component">
-								<div class="timeline__date timeline__date--bottom">November 2021</div>
-							</div>
+						<div class="timeline__middle">
+							<div class="timeline__point"></div>
 						</div>
-						<!-- / Timeline -->
 
-						<!-- Section -->
-						<section class="section scroll">
-							<div class="portfolio">
-								<a class="portfolio__link animated delay-1" href="https://thelabuzov.github.io/websites/techgear" target="_blank" data-animation="fadeIn" aria-label="Item 10">
-									<img class="portfolio__image" src="./images/content/item-10.webp" alt="techgear-website" loading="lazy"></img>
-									<h2 class="portfolio__text item-10"></h2>
-								</a>
+						<div class="timeline__component timeline__component--bg">
+							<h2 class="subtitle">SPE STI NUST MISIS</h2>
+							<p class="paragraph">
+								🔥 On the course I got acquainted with the Frontend began to learn the basics & found favorite job
+							</p>
+						</div>
 
-								<a class="portfolio__link animated delay-2" href="https://thelabuzov.github.io/websites/shopper" target="_blank" data-animation="fadeIn" aria-label="Item 9">
-									<img class="portfolio__image" src="./images/content/item-9.webp" alt="shopper-website" loading="lazy"></img>
-									<h2 class="portfolio__text item-9"></h2>
-								</a>
+						<div class="timeline__component timeline__component--bg">
+							<h2 class="subtitle">SOCIAL MEDIA</h2>
+							<p class="paragraph">
+								Created <a class="link" href="/">Labuzov</a> pseudonym after long practice. I start to share experience
+								& share tips with all programmers, DEV's
+							</p>
+						</div>
 
-								<a class="portfolio__link animated delay-3" href="https://thelabuzov.github.io/websites/discord/build" target="_blank" data-animation="fadeIn" aria-label="Item 8">
-									<img class="portfolio__image" src="./images/content/item-8.webp" alt="netflix-clone" loading="lazy"></img>
-									<h2 class="portfolio__text item-8"></h2>
-								</a>
+						<div class="timeline__middle">
+							<div class="timeline__point"></div>
+						</div>
 
-								<a class="portfolio__link animated delay-4" href="https://thelabuzov.github.io/websites/netflix/build" target="_blank" data-animation="fadeIn" aria-label="Item 7">
-									<img class="portfolio__image" src="./images/content/item-7.webp" alt="netflix-clone" loading="lazy"></img>
-									<h2 class="portfolio__text item-7"></h2>
-								</a>
+						<div class="timeline__component">
+							<div class="timeline__date">August 2020</div>
+						</div>
 
-								<a class="portfolio__link animated delay-5" href="https://thelabuzov.github.io/websites/hugo" target="_blank" data-animation="fadeIn" aria-label="Item 6">
-									<img class="portfolio__image" src="./images/content/item-6.webp" alt="hugo-website" loading="lazy"></img>
-									<h2 class="portfolio__text item-6"></h2>
-								</a>
+						<div class="timeline__component">
+							<div class="timeline__date timeline__date--right">September 2020</div>
+						</div>
 
-								<a class="portfolio__link animated delay-6" href="https://thelabuzov.github.io/websites/oathjar" target="_blank" data-animation="fadeIn" aria-label="Item 5">
-									<img class="portfolio__image" src="./images/content/item-5.webp" alt="oathjar-website" loading="lazy"></img>
-									<h2 class="portfolio__text item-5"></h2>
-								</a>
+						<div class="timeline__middle">
+							<div class="timeline__point"></div>
+						</div>
 
-								<a class="portfolio__link animated delay-7" href="https://thelabuzov.github.io/websites/education" target="_blank" data-animation="fadeIn" aria-label="Item 4">
-									<img class="portfolio__image" src="./images/content/item-4.webp" alt="education-website" loading="lazy"></img>
-									<h2 class="portfolio__text item-4"></h2>
-								</a>
+						<div class="timeline__component timeline__component--bg">
+							<h2 class="subtitle">OPC STI NUST MISIS</h2>
+							<p class="paragraph">
+								🧑‍💻 Went to college as DEV in order to unlearn specialty & create connections with developers
+							</p>
+						</div>
 
-								<a class="portfolio__link animated delay-8" href="https://thelabuzov.github.io/websites/marble" target="_blank" data-animation="fadeIn" aria-label="Item 3">
-									<img class="portfolio__image" src="./images/content/item-3.webp" alt="marble-website" loading="lazy"></img>
-									<h2 class="portfolio__text item-3"></h2>
-								</a>
+						<div class="timeline__component timeline__component--bg">
+							<h2 class="subtitle">FREELANCE</h2>
+							<p class="paragraph">
+								Became a <a class="link" href="https://freelancer.com/u/codlipa" target="_blank">Freelancer</a> &
+								started practicing here. After switched to <a class="link" href="https://fiverr.com/codlipa"
+									target="_blank">Fiverr</a> & <a class="link" href="/">Upwork</a>, you can contact me
+							</p>
+						</div>
 
-								<a class="portfolio__link animated delay-9" href="https://thelabuzov.github.io/websites/elena" target="_blank" data-animation="fadeIn" aria-label="Item 2">
-									<img class="portfolio__image" src="./images/content/item-2.webp" alt="elena-website" loading="lazy"></img>
-									<h2 class="portfolio__text item-2"></h2>
-								</a>
+						<div class="timeline__middle">
+							<div class="timeline__point"></div>
+							<div class="timeline__point timeline__point--bottom"></div>
+						</div>
 
-								<a class="portfolio__link animated delay-10" href="https://thelabuzov.github.io/websites/mw" target="_blank" data-animation="fadeIn" aria-label="Item 1">
-									<img class="portfolio__image" src="./images/content/item-1.webp" alt="mw-website" loading="lazy"></img>
-									<h2 class="portfolio__text item-1"></h2>
-								</a>
-
-								<a class="portfolio__link soon animated delay-11" href="#" data-animation="fadeIn" aria-label="Item 0"></a>
-
-								<a class="portfolio__link soon animated delay-12" href="#" data-animation="fadeIn" aria-label="Item 0"></a>
-
-								<a class="portfolio__link soon animated delay-13" href="#" data-animation="fadeIn" aria-label="Item 0"></a>
-
-								<a class="portfolio__link soon animated delay-14" href="#" data-animation="fadeIn" aria-label="Item 0"></a>
-
-								<a class="portfolio__link soon animated delay-15" href="#" data-animation="fadeIn" aria-label="Item 0"></a>
-							</div>
-						</section>
-						<!-- / Section -->
-
+						<div class="timeline__component">
+							<div class="timeline__date timeline__date--bottom">November 2021</div>
+						</div>
 					</div>
+					<!-- / Timeline -->
+
 				</div>
-				<!-- / Slide -->
+			</div>
+			<!-- / Slide -->
+
+			<!-- Slide -->
+			<div class="slide two">
+				<div class="container container__portfolio">
+
+					<!-- Section -->
+					<section class="section scroll">
+						<div class="portfolio">
+							<a class="portfolio__link animated delay-1" href="https://thelabuzov.github.io/websites/techgear"
+								target="_blank" data-animation="fadeIn" aria-label="Item 10">
+								<img class="portfolio__image" src="./images/content/item-10.webp" alt="techgear-website"
+									loading="lazy"></img>
+								<h2 class="portfolio__text item-10"></h2>
+							</a>
+
+							<a class="portfolio__link animated delay-2" href="https://thelabuzov.github.io/websites/shopper"
+								target="_blank" data-animation="fadeIn" aria-label="Item 9">
+								<img class="portfolio__image" src="./images/content/item-9.webp" alt="shopper-website"
+									loading="lazy"></img>
+								<h2 class="portfolio__text item-9"></h2>
+							</a>
+
+							<a class="portfolio__link animated delay-3" href="https://thelabuzov.github.io/websites/discord/build"
+								target="_blank" data-animation="fadeIn" aria-label="Item 8">
+								<img class="portfolio__image" src="./images/content/item-8.webp" alt="netflix-clone"
+									loading="lazy"></img>
+								<h2 class="portfolio__text item-8"></h2>
+							</a>
+
+							<a class="portfolio__link animated delay-4" href="https://thelabuzov.github.io/websites/netflix/build"
+								target="_blank" data-animation="fadeIn" aria-label="Item 7">
+								<img class="portfolio__image" src="./images/content/item-7.webp" alt="netflix-clone"
+									loading="lazy"></img>
+								<h2 class="portfolio__text item-7"></h2>
+							</a>
+
+							<a class="portfolio__link animated delay-5" href="https://thelabuzov.github.io/websites/hugo"
+								target="_blank" data-animation="fadeIn" aria-label="Item 6">
+								<img class="portfolio__image" src="./images/content/item-6.webp" alt="hugo-website"
+									loading="lazy"></img>
+								<h2 class="portfolio__text item-6"></h2>
+							</a>
+
+							<a class="portfolio__link animated delay-6" href="https://thelabuzov.github.io/websites/oathjar"
+								target="_blank" data-animation="fadeIn" aria-label="Item 5">
+								<img class="portfolio__image" src="./images/content/item-5.webp" alt="oathjar-website"
+									loading="lazy"></img>
+								<h2 class="portfolio__text item-5"></h2>
+							</a>
+
+							<a class="portfolio__link animated delay-7" href="https://thelabuzov.github.io/websites/education"
+								target="_blank" data-animation="fadeIn" aria-label="Item 4">
+								<img class="portfolio__image" src="./images/content/item-4.webp" alt="education-website"
+									loading="lazy"></img>
+								<h2 class="portfolio__text item-4"></h2>
+							</a>
+
+							<a class="portfolio__link animated delay-8" href="https://thelabuzov.github.io/websites/marble"
+								target="_blank" data-animation="fadeIn" aria-label="Item 3">
+								<img class="portfolio__image" src="./images/content/item-3.webp" alt="marble-website"
+									loading="lazy"></img>
+								<h2 class="portfolio__text item-3"></h2>
+							</a>
+
+							<a class="portfolio__link animated delay-9" href="https://thelabuzov.github.io/websites/elena"
+								target="_blank" data-animation="fadeIn" aria-label="Item 2">
+								<img class="portfolio__image" src="./images/content/item-2.webp" alt="elena-website"
+									loading="lazy"></img>
+								<h2 class="portfolio__text item-2"></h2>
+							</a>
+
+							<a class="portfolio__link animated delay-10" href="https://thelabuzov.github.io/websites/mw"
+								target="_blank" data-animation="fadeIn" aria-label="Item 1">
+								<img class="portfolio__image" src="./images/content/item-1.webp" alt="mw-website" loading="lazy"></img>
+								<h2 class="portfolio__text item-1"></h2>
+							</a>
+
+							<a class="portfolio__link soon animated delay-11" href="#" data-animation="fadeIn"
+								aria-label="Item 0"></a>
+
+							<a class="portfolio__link soon animated delay-12" href="#" data-animation="fadeIn"
+								aria-label="Item 0"></a>
+
+							<a class="portfolio__link soon animated delay-13" href="#" data-animation="fadeIn"
+								aria-label="Item 0"></a>
+
+							<a class="portfolio__link soon animated delay-14" href="#" data-animation="fadeIn"
+								aria-label="Item 0"></a>
+
+							<a class="portfolio__link soon animated delay-15" href="#" data-animation="fadeIn"
+								aria-label="Item 0"></a>
+						</div>
+					</section>
+					<!-- / Section -->
+
+				</div>
+			</div>
+			<!-- / Slide -->
+
+		</div>
+	</div>
+	<!-- / Horizontal -->
+
+	<!-- WinBox -->
+	<div class="hidden">
+		<div id="about__content">
+			<h2 class="subtitle">About Me</h2>
+			<p class="paragraph">Hello, my name is Dmitry Labuzov and I have been programming websites for many years</p>
+			<p class="paragraph">Some of the languages that I am fluent in include HTML, CSS and light JavaScript</p>
+		</div>
+
+		<div id="progress__content">
+			<div class="progress__inner">
+
+				<!-- Boxes -->
+				<div class="progress__box">
+					<h3 class="subtitle">HTML - 90%</h3>
+					<div class="progress__bar html"><span></span></div>
+				</div>
+
+				<div class="progress__box">
+					<h3 class="subtitle">CSS - 85%</h3>
+					<div class="progress__bar css"><span></span></div>
+				</div>
+
+				<div class="progress__box">
+					<h3 class="subtitle">JavaScript - 70%</h3>
+					<div class="progress__bar javascript"><span></span></div>
+				</div>
+
+				<div class="progress__box">
+					<h3 class="subtitle">Tailwind - 75%</h3>
+					<div class="progress__bar tailwind"><span></span></div>
+				</div>
+
+				<div class="progress__box">
+					<h3 class="subtitle">Bootstrap - 65%</h3>
+					<div class="progress__bar bootstrap"><span></span></div>
+				</div>
+
+				<div class="progress__box">
+					<h3 class="subtitle">Git - 80%</h3>
+					<div class="progress__bar git"><span></span></div>
+				</div>
+				<!-- / Boxes -->
 
 			</div>
 		</div>
-		<!-- / Horizontal -->
+	</div>
+	<!-- / WinBox -->
 
-		<!-- WinBox -->
-		<div class="hidden">
-			<div id="about__content">
-				<h2 class="subtitle">About Me</h2>
-				<p class="paragraph">Hello, my name is Dmitry Labuzov and I have been programming websites for many years</p>
-				<p class="paragraph">Some of the languages that I am fluent in include HTML, CSS and light JavaScript</p>
-			</div>
+	<!-- Scripts -->
+	<script src="./app/js/zepto.min.js"></script>
+	<script src="./app/js/winbox.min.js"></script>
+	<script src="./app/js/typed.min.js"></script>
+	<script async src="https://googletagmanager.com/gtag/js?id=G-RLJVN893WD"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-			<div id="progress__content">
-				<div class="progress__inner">
+		gtag('config', 'G-RLJVN893WD');
+	</script>
+	<!-- / Scripts -->
+</body>
 
-					<!-- Boxes -->
-					<div class="progress__box">
-						<h3 class="subtitle">HTML - 90%</h3>
-						<div class="progress__bar html"><span></span></div>
-					</div>
-
-					<div class="progress__box">
-						<h3 class="subtitle">CSS - 85%</h3>
-						<div class="progress__bar css"><span></span></div>
-					</div>
-
-					<div class="progress__box">
-						<h3 class="subtitle">JavaScript - 70%</h3>
-						<div class="progress__bar javascript"><span></span></div>
-					</div>
-
-					<div class="progress__box">
-						<h3 class="subtitle">Tailwind - 75%</h3>
-						<div class="progress__bar tailwind"><span></span></div>
-					</div>
-
-					<div class="progress__box">
-						<h3 class="subtitle">Bootstrap - 65%</h3>
-						<div class="progress__bar bootstrap"><span></span></div>
-					</div>
-
-					<div class="progress__box">
-						<h3 class="subtitle">Git - 80%</h3>
-						<div class="progress__bar git"><span></span></div>
-					</div>
-					<!-- / Boxes -->
-
-				</div>
-			</div>
-		</div>
-		<!-- / WinBox -->
-
-		<!-- Scripts -->
-		<script src="./app/js/zepto.min.js"></script>
-		<script src="./app/js/winbox.min.js"></script>
-		<script src="./app/js/typed.min.js"></script>
-		<script async src="https://googletagmanager.com/gtag/js?id=G-RLJVN893WD"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'G-RLJVN893WD');
-		</script>
-		<!-- / Scripts -->
-	</body>
 </html>
