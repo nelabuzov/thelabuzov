@@ -2,7 +2,7 @@
 
 ## Hello [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif) I'm Dmitry Labuzov
 
-[![Website](https://img.shields.io/website?label=labuzov.vercel.app&url=https://labuzov.vercel.app&style=for-the-badge)](https://labuzov.vercel.app)
+[![Website](https://img.shields.io/website?label=thelabuzov.github.io/thelabuzov&url=https://thelabuzov.github.io/thelabuzov&style=for-the-badge)](https://thelabuzov.github.io/thelabuzov)
 [![Twitter](https://img.shields.io/twitter/follow/thelabuzov?color=007ec6&label=twitter&logo=twitter&logoColor=fff&style=for-the-badge)](https://twitter.com/thelabuzov)
 
 Daily working with websites & writing about it 💛 I'm motivated member of community, #100DaysOfCode 🔥 Follow for DEV sources
