@@ -12,29 +12,9 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 [<img alt="Profile Trophy" width="100%" src="https://github-profile-trophy.vercel.app/?username=thelabuzov&no-frame=true&theme=onedark">](https://github-profile-trophy.vercel.app/?username=thelabuzov&no-frame=true&theme=onedark)
 [<img alt="Stats" width="49%" src="https://github-readme-stats.vercel.app/api?username=thelabuzov&show_icons=true&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api?username=thelabuzov&show_icons=true&hide_border=true&theme=onedark)
 [<img alt="Streak Stats" width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=thelabuzov&hide_border=true&theme=onedark">](https://github-readme-streak-stats.herokuapp.com/?user=thelabuzov&hide_border=true&theme=onedark)
-[<img align="right" alt="Top Langs" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thelabuzov&layout=compact&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api/top-langs/?username=thelabuzov&layout=compact&hide_border=true&theme=onedark)
-<h4 align="left" width="49%">
-
-```javascript
-const thelabuzov = {
-	pronouns: "He" | "Him",
-	code: ["HTML", "CSS", "JavaScript", "Git"],
-	tools: ["SCSS", "Tailwind CSS", "Bootstrap"],
-	techCommunities: {
-  		member: "100DaysOfCode",
-   		helper: "CodeNewbie"
-	},
-	architecture: ["PWA", "SPA"],
-	currentFocus: "Frontend Development",
-	funFact: "You're the best friends I ever had"
-}
-```
-</h4>
 
 ## If want to support me I'll be glad to any feedback, thanks for visiting [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif)
 [<img alt="PayPal" height="30" src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge">](https://paypal.me/thelabuzov)
 [<img alt="Ethereum" height="30" src="https://img.shields.io/badge/ethereum-3c3c3d?logo=ethereum&style=for-the-badge">](https://blockchain.com/eth/address/0x1b10F474c1E870077708e5428A540a3623A11Fc5)
 [<img alt="Bitcoin" height="30" src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge">](https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy)
 [<img alt="Visitor Count" height="30" src="https://profile-counter.glitch.me/thelabuzov/count.svg">](https://profile-counter.glitch.me/thelabuzov/count.svg)
-
-</div>
