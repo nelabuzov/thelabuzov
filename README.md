@@ -13,8 +13,6 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 [<img alt="Profile Trophy" width="100%" src="https://github-profile-trophy.vercel.app/?username=thelabuzov&no-frame=true&theme=onedark">](https://github-profile-trophy.vercel.app/?username=thelabuzov&no-frame=true&theme=onedark)
 [<img alt="Stats" width="49%" src="https://github-readme-stats.vercel.app/api?username=thelabuzov&show_icons=true&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api?username=thelabuzov&show_icons=true&hide_border=true&theme=onedark)
 [<img alt="Streak Stats" width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=thelabuzov&hide_border=true&theme=onedark">](https://github-readme-streak-stats.herokuapp.com/?user=thelabuzov&hide_border=true&theme=onedark)
-[<img alt="Spotify" width="49%" src="https://novatorem-labuzov.vercel.app/api/spotify">](https://open.spotify.com/user/hi40rt1oyr7g8sq6w6c6s1s04)
-[<img alt="Repo" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=thelabuzov&repo=100-days-of-code&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api/pin/?username=thelabuzov&repo=100-days-of-code&hide_border=true&theme=onedark)
 [<img align="left" alt="Top Langs" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thelabuzov&layout=compact&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api/top-langs/?username=thelabuzov&layout=compact&hide_border=true&theme=onedark)
 [<img align="left" alt="Dev Card" width="16.9%" src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png">](https://app.daily.dev/thelabuzov)
 
