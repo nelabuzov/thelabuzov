@@ -44,13 +44,8 @@ const thelabuzov = {
 	pronouns: "He" | "Him",
 	code: ["HTML", "CSS", "JavaScript", "Git"],
 	tools: ["SCSS", "Tailwind CSS", "Bootstrap"],
-	techCommunities: {
-  		member: "100DaysOfCode",
-   		helper: "CodeNewbie"
-	},
 	architecture: ["PWA", "SPA"],
-	currentFocus: "Frontend Development",
-	funFact: "You're the best friends I ever had"
+	currentFocus: "Frontend Development"
 }
 ```
 </h4>
