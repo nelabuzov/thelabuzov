@@ -34,6 +34,8 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 ![Bootstrap](https://img.shields.io/badge/bootstrap-7952b3?style=flat-square&logo=bootstrap&logoColor=fff)
 </div>
 
+<div>
+
 [<img align="right" alt="Repo" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=thelabuzov&repo=100-days-of-code&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api/pin/?username=thelabuzov&repo=100-days-of-code&hide_border=true&theme=onedark)
 <h4 align="left" width="49%">
 
@@ -47,6 +49,7 @@ const thelabuzov = {
 }
 ```
 </h4>
+</div>
 
 ## If want to support me I'll be glad to any feedback, thanks for visiting [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif)
 [<img alt="PayPal" height="30" src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge">](https://paypal.me/thelabuzov)
