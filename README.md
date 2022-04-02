@@ -44,7 +44,6 @@ const thelabuzov = {
 	pronouns: "He" | "Him",
 	code: ["HTML", "CSS", "JavaScript", "Git"],
 	tools: ["SCSS", "Tailwind CSS", "Bootstrap"],
-	architecture: ["PWA", "SPA"],
 	currentFocus: "Frontend Development"
 }
 ```
