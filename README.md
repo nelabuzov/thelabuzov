@@ -2,8 +2,7 @@
 
 ## Hello [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif) I'm Dmitry Labuzov
 
-[![Website](https://img.shields.io/website?label=labuzov.vercel.app&url=https://labuzov.vercel.app&style=for-the-badge)](https://labuzov.vercel.app)
-[![WakaTime](https://wakatime.com/badge/user/1ff16437-f20a-49f3-870e-167ec8c5088d.svg?style=for-the-badge)](https://wakatime.com/@thelabuzov)
+[![Website](https://img.shields.io/website?label=thelabuzov.github.io/thelabuzov&url=https://thelabuzov.github.io/thelabuzov&style=for-the-badge)](https://thelabuzov.github.io/thelabuzov)
 [![Twitter](https://img.shields.io/twitter/follow/thelabuzov?color=007ec6&label=twitter&logo=twitter&logoColor=fff&style=for-the-badge)](https://twitter.com/thelabuzov)
 
 Daily working with websites & writing about it 💛 I'm motivated member of community, #100DaysOfCode 🔥 Follow for DEV sources
@@ -13,8 +12,6 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 [<img alt="Profile Trophy" width="100%" src="https://github-profile-trophy.vercel.app/?username=thelabuzov&no-frame=true&theme=onedark">](https://github-profile-trophy.vercel.app/?username=thelabuzov&no-frame=true&theme=onedark)
 [<img alt="Stats" width="49%" src="https://github-readme-stats.vercel.app/api?username=thelabuzov&show_icons=true&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api?username=thelabuzov&show_icons=true&hide_border=true&theme=onedark)
 [<img alt="Streak Stats" width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=thelabuzov&hide_border=true&theme=onedark">](https://github-readme-streak-stats.herokuapp.com/?user=thelabuzov&hide_border=true&theme=onedark)
-[<img alt="Spotify" width="49%" src="https://novatorem-labuzov.vercel.app/api/spotify">](https://open.spotify.com/user/hi40rt1oyr7g8sq6w6c6s1s04)
-[<img alt="Repo" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=thelabuzov&repo=100-days-of-code&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api/pin/?username=thelabuzov&repo=100-days-of-code&hide_border=true&theme=onedark)
 [<img align="left" alt="Top Langs" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thelabuzov&layout=compact&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api/top-langs/?username=thelabuzov&layout=compact&hide_border=true&theme=onedark)
 [<img align="left" alt="Dev Card" width="16.9%" src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png">](https://app.daily.dev/thelabuzov)
 
@@ -35,13 +32,11 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 ![Npm](https://img.shields.io/badge/npm-cb3837?style=flat-square&logo=npm&logoColor=fff)<br>
 ![Tailwind](https://img.shields.io/badge/tailwind-06b6d4?style=flat-square&logo=tailwindcss&logoColor=fff)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-7952b3?style=flat-square&logo=bootstrap&logoColor=fff)
-
 </div>
 
 <div>
 
-[<img align="right" alt="WakaTime Stats" width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=thelabuzov&theme=onedark&hide_border=true">](https://wakatime.com/@thelabuzov)
-
+[<img align="right" alt="Repo" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=thelabuzov&repo=100-days-of-code&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api/pin/?username=thelabuzov&repo=100-days-of-code&hide_border=true&theme=onedark)
 <h4 align="left" width="49%">
 
 ```javascript
@@ -49,26 +44,15 @@ const thelabuzov = {
 	pronouns: "He" | "Him",
 	code: ["HTML", "CSS", "JavaScript", "Git"],
 	tools: ["SCSS", "Tailwind CSS", "Bootstrap"],
-	techCommunities: {
-  		member: "100DaysOfCode",
-   		helper: "CodeNewbie"
-	},
 	architecture: ["PWA", "SPA"],
-	currentFocus: "Frontend Development",
-	funFact: "You're the best friends I ever had"
+	currentFocus: "Frontend Development"
 }
 ```
-
 </h4>
-
 </div>
 
 ## If want to support me I'll be glad to any feedback, thanks for visiting [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif)
-[<img alt="Ko-fi" height="30" src="https://img.shields.io/badge/ko--fi-ff5e5b?logo=ko-fi&logoColor=fff&style=for-the-badge">](https://ko-fi.com/thelabuzov)
-[<img alt="Buy Me a Coffee" height="30" src="https://img.shields.io/badge/coffee-fd0?logo=buymeacoffee&logoColor=333&style=for-the-badge">](https://bmc.xyz/thelabuzov)
 [<img alt="PayPal" height="30" src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge">](https://paypal.me/thelabuzov)
 [<img alt="Ethereum" height="30" src="https://img.shields.io/badge/ethereum-3c3c3d?logo=ethereum&style=for-the-badge">](https://blockchain.com/eth/address/0x1b10F474c1E870077708e5428A540a3623A11Fc5)
 [<img alt="Bitcoin" height="30" src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge">](https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy)
 [<img alt="Visitor Count" height="30" src="https://profile-counter.glitch.me/thelabuzov/count.svg">](https://profile-counter.glitch.me/thelabuzov/count.svg)
-
-</div>
