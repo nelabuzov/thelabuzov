@@ -19,10 +19,9 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 
 <div align="left">
 
-[<img alt="Bitcoin" height="25" src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge">](https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy)
-[<img alt="Ethereum" height="25" src="https://img.shields.io/badge/ethereum-3c3c3d?logo=ethereum&style=for-the-badge">](https://blockchain.com/eth/address/0x1b10F474c1E870077708e5428A540a3623A11Fc5)
-[<img alt="PayPal" height="25" src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge">](https://paypal.me/thelabuzov)
-[<img alt="Visitor Count" height="25" src="https://profile-counter.glitch.me/thelabuzov/count.svg">](https://profile-counter.glitch.me/thelabuzov/count.svg)
+[<img alt="Bitcoin" height="20" src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge">](https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy)
+[<img alt="Ethereum" height="20" src="https://img.shields.io/badge/ethereum-3c3c3d?logo=ethereum&style=for-the-badge">](https://blockchain.com/eth/address/0x1b10F474c1E870077708e5428A540a3623A11Fc5)
+[<img alt="PayPal" height="20" src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge">](https://paypal.me/thelabuzov)
 
 <p>Languages and Tools:</p>
 
