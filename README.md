@@ -4,6 +4,9 @@
 
 [![Website](https://img.shields.io/website?label=thelabuzov.github.io/thelabuzov&url=https://thelabuzov.github.io/thelabuzov&style=for-the-badge)](https://thelabuzov.github.io/thelabuzov)
 [![Twitter](https://img.shields.io/twitter/follow/thelabuzov?color=007ec6&label=twitter&logo=twitter&logoColor=fff&style=for-the-badge)](https://twitter.com/thelabuzov)
+[<img alt="Bitcoin" height="30" src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge">](https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy)
+[<img alt="Ethereum" height="30" src="https://img.shields.io/badge/ethereum-3c3c3d?logo=ethereum&style=for-the-badge">](https://blockchain.com/eth/address/0x1b10F474c1E870077708e5428A540a3623A11Fc5)
+[<img alt="PayPal" height="30" src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge">](https://paypal.me/thelabuzov)
 
 Daily working with websites & writing about it 💛 I'm motivated member of community, #100DaysOfCode 🔥 Follow for DEV sources
 
@@ -18,11 +21,6 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 [<img align="left" alt="Dev Card" width="16.9%" src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png">](https://app.daily.dev/thelabuzov)
 
 <div align="left">
-
-[<img alt="Bitcoin" height="20" src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge">](https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy)
-[<img alt="Ethereum" height="20" src="https://img.shields.io/badge/ethereum-3c3c3d?logo=ethereum&style=for-the-badge">](https://blockchain.com/eth/address/0x1b10F474c1E870077708e5428A540a3623A11Fc5)
-[<img alt="PayPal" height="20" src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge">](https://paypal.me/thelabuzov)
-
 <p>Languages and Tools:</p>
 
 ![HTML](https://img.shields.io/badge/html-e34f26?style=flat-square&logo=html5&logoColor=fff)
@@ -36,3 +34,4 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 ![Npm](https://img.shields.io/badge/npm-cb3837?style=flat-square&logo=npm&logoColor=fff)<br>
 ![Tailwind](https://img.shields.io/badge/tailwind-06b6d4?style=flat-square&logo=tailwindcss&logoColor=fff)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-7952b3?style=flat-square&logo=bootstrap&logoColor=fff)
+</div>
