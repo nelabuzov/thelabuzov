@@ -37,10 +37,8 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 <div>
 
 [<img align="right" alt="Repo" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=thelabuzov&repo=100-days-of-code&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api/pin/?username=thelabuzov&repo=100-days-of-code&hide_border=true&theme=onedark)
-<p>
-
 [<img align="right" alt="Repo" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=thelabuzov&repo=complete-javascript-course&hide_border=true&theme=onedark">](https://github-readme-stats.vercel.app/api/pin/?username=thelabuzov&repo=complete-javascript-course&hide_border=true&theme=onedark)
-</p>
+
 <h4 align="left" width="49%">
 
 ```javascript
