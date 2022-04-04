@@ -4,9 +4,9 @@
 
 [![Website](https://img.shields.io/website?label=thelabuzov.github.io/thelabuzov&url=https://thelabuzov.github.io/thelabuzov&style=for-the-badge)](https://thelabuzov.github.io/thelabuzov)
 [![Twitter](https://img.shields.io/twitter/follow/thelabuzov?color=007ec6&label=twitter&logo=twitter&logoColor=fff&style=for-the-badge)](https://twitter.com/thelabuzov)
-[<img alt="Bitcoin" height="30" src="https://img.shields.io/badge/bitcoin-000?logo=bitcoin&style=for-the-badge">](https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy)
-[<img alt="Ethereum" height="30" src="https://img.shields.io/badge/ethereum-3c3c3d?logo=ethereum&style=for-the-badge">](https://blockchain.com/eth/address/0x1b10F474c1E870077708e5428A540a3623A11Fc5)
-[<img alt="PayPal" height="30" src="https://img.shields.io/badge/paypal-00457c?logo=paypal&style=for-the-badge">](https://paypal.me/thelabuzov)
+[<img alt="PayPal" height="30" src="https://img.shields.io/badge/paypal-555?logo=paypal&style=for-the-badge">](https://paypal.me/thelabuzov)
+[<img alt="Ethereum" height="30" src="https://img.shields.io/badge/ethereum-555?logo=ethereum&style=for-the-badge">](https://blockchain.com/eth/address/0x1b10F474c1E870077708e5428A540a3623A11Fc5)
+[<img alt="Bitcoin" height="30" src="https://img.shields.io/badge/bitcoin-555?logo=bitcoin&style=for-the-badge">](https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy)
 
 Daily working with websites & writing about it 💛 I'm motivated member of community, #100DaysOfCode 🔥 Follow for DEV sources
 
