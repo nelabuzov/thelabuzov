@@ -1,4 +1,4 @@
-<div>
+<div align="center">
 
 ## Hello [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif) I'm Dmitry Labuzov
 
