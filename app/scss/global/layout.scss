@@ -101,7 +101,8 @@
 
 		&__portfolio {
 			align-items: start;
-			justify-content: end;
+			// TODO: uncomment when add side text
+			// justify-content: end;
 			min-height: 100vh;
 		}
 	}
