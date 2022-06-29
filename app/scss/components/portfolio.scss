@@ -9,7 +9,6 @@
 	&__link {
 		display: flex;
 		justify-content: center;
-		cursor: url("../images/tools/pin.cur"), auto;
 		border: rem(5) solid var(--dark-gray);
 		min-height: rem(250);
 		overflow: hidden;
@@ -25,7 +24,7 @@
 
 		&.soon {
 			display: none;
-			cursor: url("../images/tools/unavailiable.cur"), auto;
+			cursor: not-allowed;
 			background-image: url("https://via.placeholder.com/380x250?text=Coming+Soon");
 
 			@include breakpoint(large) {

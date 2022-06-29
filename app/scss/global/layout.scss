@@ -1,6 +1,6 @@
 @use '../util' as *;
 
-#click, #volume { cursor: url('../images/tools/link.cur'), auto }
+#click, #volume { cursor: pointer }
 
 #click {
 	width: 100%;

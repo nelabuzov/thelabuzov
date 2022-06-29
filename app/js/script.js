@@ -1,94 +1,91 @@
 // WinBox
-const about = document.querySelector('#about')
-const progress = document.querySelector('#progress')
-const aboutContent = document.querySelector('#about__content')
-const progressContent = document.querySelector('#progress__content')
+const about = document.querySelector("#about");
+const progress = document.querySelector("#progress");
+const aboutContent = document.querySelector("#about__content");
+const progressContent = document.querySelector("#progress__content");
 
-about.addEventListener('click', () => {
+about.addEventListener("click", () => {
 	const aboutBox = new WinBox({
-		title: 'About Me',
-		width: '300px',
-		height: '450px',
+		title: "About Me",
+		width: "300px",
+		height: "450px",
 		mount: aboutContent,
 		onfocus: function () {
-			this.setBackground('var(--cherry)')
+			this.setBackground("var(--cherry)");
 		},
 		onblur: function () {
-			this.setBackground('var(--light-gray)')
-		}
-	})
-})
+			this.setBackground("var(--light-gray)");
+		},
+	});
+});
 
-progress.addEventListener('click', () => {
+progress.addEventListener("click", () => {
 	const progressBox = new WinBox({
-		title: 'My Progress',
-		width: '300px',
-		height: '550px',
+		title: "My Progress",
+		width: "300px",
+		height: "550px",
 		mount: progressContent,
 		onfocus: function () {
-			this.setBackground('var(--cherry)')
+			this.setBackground("var(--cherry)");
 		},
 		onblur: function () {
-			this.setBackground('var(--light-gray)')
-		}
-	})
-})
+			this.setBackground("var(--light-gray)");
+		},
+	});
+});
 
 // Theme
-var audio = document.createElement('audio')
-var volume = document.getElementById('volume')
+var audio = document.createElement("audio");
+var volume = document.getElementById("volume");
 
 function unmute() {
-	audio.setAttribute('autoplay', 'true')
-	audio.innerHTML = '<source src="./app/audio/theme.webm" type="audio/mpeg">'
-	document.body.appendChild(audio)
+	audio.setAttribute("autoplay", "true");
+	audio.innerHTML = '<source src="./app/audio/theme.webm" type="audio/mpeg">';
+	document.body.appendChild(audio);
 }
 
 function mute() {
-	if (audio.muted === false, volume.src.match('unmute')) {
-		volume.src = './images/tools/mute.png'
-		audio.muted = true
+	if ((audio.muted === false, volume.src.match("unmute"))) {
+		volume.src = "./images/tools/mute.png";
+		audio.muted = true;
 	} else {
-		volume.src = './images/tools/unmute.png'
-		audio.muted = false
+		volume.src = "./images/tools/unmute.png";
+		audio.muted = false;
 	}
 }
 
 function display() {
-	var display = document.getElementById('click')
-	display.style.display = 'none'
+	var display = document.getElementById("click");
+	display.style.display = "none";
 }
 
 // Typed
-var typed = new Typed('#animate', {
-	strings: [
-		"Content Creator",
-		"Web Developer"
-	],
+var typed = new Typed("#animate", {
+	strings: ["Content Creator", "Web Developer"],
 	typeSpeed: 50,
 	backSpeed: 50,
-	loop: true
-})
+	loop: true,
+});
 
 // Animates
-$(document).ready(function(){
-	var scrollDiv = $(".wrapper")
-	var target = $(".animated")
-	var scrollDivHeight = $(".wrapper").height()
+$(document).ready(function () {
+	var scrollDiv = $(".wrapper");
+	var target = $(".animated");
+	var scrollDivHeight = $(".wrapper").height();
 
 	var targetTop = target.offset().top;
-	var scrollDivTop = scrollDiv.offset().top
+	var scrollDivTop = scrollDiv.offset().top;
 
-	var toScroll = targetTop - scrollDivTop - scrollDivHeight
-	var addToClass = target.attr('data-animation')
-	var visibleClass = "visible"
+	var toScroll = targetTop - scrollDivTop - scrollDivHeight;
+	var addToClass = target.attr("data-animation");
+	var visibleClass = "visible";
 
-	scrollDiv.scroll(function(){
-		var scrolled = $(this).scrollTop()
-		if(scrolled > toScroll){
-			target.addClass(visibleClass).addClass(addToClass)
+	scrollDiv.scroll(function () {
+		var scrolled = $(this).scrollTop();
+		if (scrolled > toScroll) {
+			target.addClass(visibleClass).addClass(addToClass);
 		} else {
-			target.removeClass(visibleClass).removeClass(addToClass)
+			target.removeClass(visibleClass).removeClass(addToClass);
 		}
-	})
-})
+	});
+});

@@ -6,7 +6,6 @@ a {
 	position: relative;
 	color: var(--white);
 	text-decoration: none;
-	cursor: url('../images/tools/person.cur'), auto;
 
 	&:not(.title, .portfolio__link) {
 		text-shadow: 0 0 rem(10) var(--aqua);
@@ -14,8 +13,8 @@ a {
 		color: var(--aqua);
 
 		&:hover {
-			color: var(--cherry);
 			text-shadow: 0 0 rem(10) var(--cherry);
+			color: var(--cherry);
 		}
 	}
 }
@@ -33,13 +32,12 @@ a {
 	a { font-size: rem(25);
 
 		&:not(.links--vertical) {
-			color: var(--cherry);
 			text-shadow: 0 0 rem(10) var(--cherry);
-			cursor: url('../images/tools/link.cur'), auto;
+			color: var(--cherry);
 
 			&:hover {
-				color: var(--aqua);
 				text-shadow: 0 0 rem(10) var(--aqua);
+				color: var(--aqua);
 			}
 		}
 
