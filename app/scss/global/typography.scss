@@ -25,7 +25,6 @@ a {
 	font-size: 0;
 
 	&--vertical {
-
 		@include breakpoint(large) {
 			display: inline-flex;
 			flex-direction: column;

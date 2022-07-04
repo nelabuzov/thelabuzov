@@ -44,10 +44,10 @@ function theme() {
 	document.body.appendChild(audio);
 
 	if ((audio.muted === false, volume.src.match("unmute"))) {
-		volume.src = "./images/tools/mute.png";
+		volume.src = "./images/icons/mute.png";
 		audio.muted = true;
 	} else {
-		volume.src = "./images/tools/unmute.png";
+		volume.src = "./images/icons/unmute.png";
 		audio.muted = false;
 	}
 }

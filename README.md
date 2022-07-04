@@ -21,7 +21,7 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 [<img align="left" alt="Dev Card" width="16.9%" src="https://api.daily.dev/devcards/194755a83b754f6fa6ae37cf17b019a0.png">](https://app.daily.dev/thelabuzov)
 
 <div align="left">
-<p>Languages and Tools:</p>
+<p>Languages and icons:</p>
 
 ![HTML](https://img.shields.io/badge/html-e34f26?style=flat-square&logo=html5&logoColor=fff)
 ![CSS](https://img.shields.io/badge/css-1572b6?style=flat-square&logo=css3&logoColor=fff)
@@ -34,4 +34,5 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 ![Npm](https://img.shields.io/badge/npm-cb3837?style=flat-square&logo=npm&logoColor=fff)<br>
 ![Tailwind](https://img.shields.io/badge/tailwind-06b6d4?style=flat-square&logo=tailwindcss&logoColor=fff)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-7952b3?style=flat-square&logo=bootstrap&logoColor=fff)
+
 </div>

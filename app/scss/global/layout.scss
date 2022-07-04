@@ -54,7 +54,6 @@
 }
 
 .timeline {
-
 	@include breakpoint-down(large) {
 		.one & {
 			display: none;
