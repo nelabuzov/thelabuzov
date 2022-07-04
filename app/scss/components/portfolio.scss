@@ -1,5 +1,21 @@
 @use "../util" as *;
 
+// Features
+.features {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: rem(600);
+	padding: rem(40) 0;
+	min-height: 100vh;
+	margin: 0 auto;
+
+	.subtitle {
+		margin: rem(10) 0;
+	}
+}
+
 // Portfolio
 .portfolio {
 	display: flex;
