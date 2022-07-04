@@ -11,7 +11,7 @@ about.addEventListener("click", () => {
 		height: "450px",
 		mount: aboutContent,
 		onfocus: function () {
-			this.setBackground("var(--cherry)");
+			this.setBackground("var(--pink)");
 		},
 		onblur: function () {
 			this.setBackground("var(--light-gray)");
@@ -26,7 +26,7 @@ progress.addEventListener("click", () => {
 		height: "550px",
 		mount: progressContent,
 		onfocus: function () {
-			this.setBackground("var(--cherry)");
+			this.setBackground("var(--pink)");
 		},
 		onblur: function () {
 			this.setBackground("var(--light-gray)");
@@ -38,13 +38,11 @@ progress.addEventListener("click", () => {
 var audio = document.createElement("audio");
 var volume = document.getElementById("volume");
 
-function unmute() {
+function theme() {
 	audio.setAttribute("autoplay", "true");
 	audio.innerHTML = '<source src="./app/audio/theme.webm" type="audio/mpeg">';
 	document.body.appendChild(audio);
-}
 
-function mute() {
 	if ((audio.muted === false, volume.src.match("unmute"))) {
 		volume.src = "./images/tools/mute.png";
 		audio.muted = true;
@@ -54,13 +52,8 @@ function mute() {
 	}
 }
 
-function display() {
-	var display = document.getElementById("click");
-	display.style.display = "none";
-}
-
 // Typed
-var typed = new Typed("#animate", {
+var typed = new typed("#animate", {
 	strings: ["Content Creator", "Web Developer"],
 	typeSpeed: 50,
 	backSpeed: 50,

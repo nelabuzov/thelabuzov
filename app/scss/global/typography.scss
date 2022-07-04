@@ -1,6 +1,8 @@
 @use '../util' as *;
 
-h1, h2, h3, p { margin: 0 }
+h1, h2, h3, p {
+	margin: 0;
+}
 
 a {
 	position: relative;
@@ -13,13 +15,14 @@ a {
 		color: var(--aqua);
 
 		&:hover {
-			text-shadow: 0 0 rem(10) var(--cherry);
-			color: var(--cherry);
+			text-shadow: 0 0 rem(10) var(--pink);
+			color: var(--pink);
 		}
 	}
 }
 
-.links { font-size: 0;
+.links {
+	font-size: 0;
 
 	&--vertical {
 
@@ -29,11 +32,12 @@ a {
 		}
 	}
 
-	a { font-size: rem(25);
+	a {
+		font-size: rem(25);
 
 		&:not(.links--vertical) {
-			text-shadow: 0 0 rem(10) var(--cherry);
-			color: var(--cherry);
+			text-shadow: 0 0 rem(10) var(--pink);
+			color: var(--pink);
 
 			&:hover {
 				text-shadow: 0 0 rem(10) var(--aqua);
@@ -41,8 +45,12 @@ a {
 			}
 		}
 
-		&:first-child { padding-right: rem(10) }
+		&:first-child {
+			padding-right: rem(10);
+		}
 
-		&:last-child { padding-left: rem(10) }
+		&:last-child {
+			padding-left: rem(10);
+		}
 	}
 }

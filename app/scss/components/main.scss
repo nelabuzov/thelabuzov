@@ -3,38 +3,58 @@
 // Section
 .section {
 
-	.one & { text-align: center;
+	.one & {
+		text-align: center;
 
-		@include breakpoint(large) { text-align: left }
+		@include breakpoint(large) {
+			text-align: left;
+		}
 
 		.social {
 			line-height: 1.6;
 			margin-top: rem(10);
 
-			@include breakpoint(large) { margin-top: rem(60) }
+			@include breakpoint(large) {
+				margin-top: rem(60);
+			}
 		}
 	}
 }
 
 @keyframes glitch {
-	0% { transform: translate(0) }
+	0% {
+		transform: translate(0);;
+	}
 
-	20% { transform: translate(rem(-5), rem(5)) }
+	20% {
+		transform: translate(rem(-5), rem(5));
+	}
 
-	40% { transform: translate(rem(-5), rem(-5)) }
+	40% {
+		transform: translate(rem(-5), rem(-5));
+	}
 
-	60% { transform: translate(rem(5), rem(5)) }
+	60% {
+		transform: translate(rem(5), rem(5));
+	}
 
-	80% { transform: translate(rem(5), rem(-5)) }
+	80% {
+		transform: translate(rem(5), rem(-5));
+	}
 
-	100% { transform: translate(0) }
+	100% {
+		transform: translate(0);
+	}
 }
 
 .progress {
 
-	&__box { min-width: 80%;
+	&__box {
+		min-width: 80%;
 
-		&:last-child .progress__bar { margin-bottom: rem(10) }
+		&:last-child .progress__bar {
+			margin-bottom: rem(10);
+		}
 	}
 
 	&__bar, &__bar span {
@@ -58,22 +78,36 @@
 			animation: progress var(--transition-min) forwards;
 		}
 
-		&.html span { min-width: 90% }
+		&.html span {
+			min-width: 90%;
+		}
 
-		&.css span { min-width: 85% }
+		&.css span {
+			min-width: 85%;
+		}
 
-		&.javascript span { min-width: 70% }
+		&.javascript span {
+			min-width: 70%;
+		}
 
-		&.tailwind span { min-width: 75% }
+		&.tailwind span {
+			min-width: 75%;
+		}
 
-		&.bootstrap span { min-width: 65% }
+		&.bootstrap span {
+			min-width: 65%;
+		}
 
-		&.git span { min-width: 80% }
+		&.git span {
+			min-width: 80%;
+		}
 	}
 }
 
 @keyframes progress {
-	100% { transform: scaleX(1) }
+	100% {
+		transform: scaleX(1);
+	}
 }
 
 // Timeline

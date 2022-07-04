@@ -1,26 +1,7 @@
 @use '../util' as *;
 
-#click, #volume { cursor: pointer }
-
-#click {
-	width: 100%;
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: var(--black);
-	position: fixed;
-	z-index: 2;
-
-	&::after {
-		content: '';
-		width: rem(600);
-		min-height: rem(335);
-		background: url('../images/loading.webp') no-repeat 50% / contain;
-	}
-}
-
 #volume {
+	cursor: pointer;
 
 	@include breakpoint(large) {
 		position: absolute;
@@ -29,14 +10,17 @@
 	}
 }
 
-.wrapper { height: 100vw;
+.wrapper {
+	height: 100vw;
 
 	@include breakpoint(large) {
 		transform: rotate(-90deg) translateX(-100vh);
 		transform-origin: top left;
 		overflow-x: scroll;
 
-		&::-webkit-scrollbar { display: none }
+		&::-webkit-scrollbar {
+			display: none;
+		}
 
 		&__inner {
 			display: flex;
@@ -72,14 +56,20 @@
 .timeline {
 
 	@include breakpoint-down(large) {
-		.one & { display: none }
+		.one & {
+			display: none;
+		}
 	}
 
 	@include breakpoint(large) {
-		.two & { display: none }
+		.two & {
+			display: none;
+		}
 	}
 
-	.two & { margin: 0 auto }
+	.two & {
+		margin: 0 auto;
+	}
 }
 
 .container {
@@ -101,21 +91,22 @@
 
 		&__portfolio {
 			align-items: start;
-			// TODO: uncomment when add side text
-			// justify-content: end;
+			justify-content: end;
 			min-height: 100vh;
 		}
 	}
 }
 
-.scroll { overflow: visible;
+.scroll {
+	overflow: visible;
 
 	@include breakpoint(large) {
 		overflow: scroll;
 		max-height: 100vh;
 	}
 
-	&:first-child { min-width: 100vw;
+	&:first-child {
+		min-width: 100vw;
 
 		@include breakpoint(large) {
 			max-width: rem(640);
@@ -123,9 +114,13 @@
 		}
 	}
 
-	&:last-child { max-width: rem(1140) }
+	&:last-child {
+		max-width: rem(1140);
+	}
 
-	&::-webkit-scrollbar { display: none }
+	&::-webkit-scrollbar {
+		display: none;
+	}
 }
 
 .wb-body {
@@ -133,7 +128,9 @@
 	color: var(--white);
 	padding: rem(20);
 
-	&::-webkit-scrollbar { display: none }
+	&::-webkit-scrollbar {
+		display: none;
+	}
 }
 
 .hidden {
