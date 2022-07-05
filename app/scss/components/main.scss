@@ -95,11 +95,15 @@
 		}
 
 		&.bootstrap span {
-			min-width: 65%;
+			min-width: 60%;
+		}
+
+		&.wordpress span {
+			min-width: 75%;
 		}
 
 		&.git span {
-			min-width: 80%;
+			min-width: 65%;
 		}
 	}
 }
