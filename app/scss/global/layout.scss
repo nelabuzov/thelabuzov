@@ -59,16 +59,6 @@
 			display: none;
 		}
 	}
-
-	@include breakpoint(large) {
-		.two & {
-			display: none;
-		}
-	}
-
-	.two & {
-		margin: 0 auto;
-	}
 }
 
 .container {
