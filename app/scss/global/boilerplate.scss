@@ -23,6 +23,10 @@ body {
 	}
 }
 
+.suptitle {
+	opacity: .75;
+}
+
 .title {
 	display: inline-block;
 	position: relative;
@@ -39,7 +43,7 @@ body {
 		content: 'thelabuzov.eth';
 		position: absolute;
 		left: 0;
-		opacity: .8;
+		opacity: .75;
 	}
 
 	&:before {
@@ -55,7 +59,7 @@ body {
 	&:hover {
 
 		&:before, &:after {
-			animation: glitch var(--transition-min) cubic-bezier(.25, .46, .45, .94) infinite;
+			animation: glitch var(--transition-min) infinite;
 		}
 
 		&:after {
@@ -68,8 +72,8 @@ body {
 	font-size: rem(30);
 	margin-bottom: rem(10);
 
-	@include breakpoint(large) {
-		font-size: rem(30);
+	&--full {
+		margin-top: rem(10);
 	}
 
 	&--gradient {

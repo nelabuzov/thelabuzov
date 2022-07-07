@@ -11,14 +11,8 @@
 	min-height: 100vh;
 	margin: 0 auto;
 
-	&__item {
-		&:not(:last-child) {
-			margin-bottom: rem(40);
-		}
-
-		.subtitle {
-			margin-top: rem(10);
-		}
+	&__item:not(:last-child) {
+		margin-bottom: rem(40);
 	}
 }
 
@@ -92,7 +86,7 @@
 			left: 0;
 			min-width: 100%;
 			min-height: 100%;
-			background-color: rgba(0, 0, 0, 0.6);
+			background-color: rgba(0, 0, 0, .5);
 		}
 
 		&::after {
