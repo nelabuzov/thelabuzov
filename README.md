@@ -29,10 +29,10 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 ![Markdown](https://img.shields.io/badge/markdown-000?style=flat-square&logo=markdown&logoColor=fff)
 ![Sass](https://img.shields.io/badge/sass-cc6699?style=flat-square&logo=sass&logoColor=fff)
 ![Gulp](https://img.shields.io/badge/gulp-cf4647?style=flat-square&logo=gulp&logoColor=fff)<br>
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-06b6d4?style=flat-square&logo=tailwindcss&logoColor=fff)
+![Bootstrap](https://img.shields.io/badge/bootstrap-7952b3?style=flat-square&logo=bootstrap&logoColor=fff)<br>
 ![Pug](https://img.shields.io/badge/pug-a86454?style=flat-square&logo=pug&logoColor=fff)
 ![Git](https://img.shields.io/badge/git-f05032?style=flat-square&logo=git&logoColor=fff)
-![Npm](https://img.shields.io/badge/npm-cb3837?style=flat-square&logo=npm&logoColor=fff)<br>
-![Tailwind](https://img.shields.io/badge/tailwind-06b6d4?style=flat-square&logo=tailwindcss&logoColor=fff)
-![Bootstrap](https://img.shields.io/badge/bootstrap-7952b3?style=flat-square&logo=bootstrap&logoColor=fff)
+![Npm](https://img.shields.io/badge/npm-cb3837?style=flat-square&logo=npm&logoColor=fff)
 
 </div>
