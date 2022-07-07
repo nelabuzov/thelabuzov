@@ -48,15 +48,11 @@
 	&::before {
 		content: '';
 		min-width: 100vw;
-		min-height: 100vh;
+		min-height: 250vh;
 		background-color: rgba(0, 0, 0, .6);
-	}
-}
 
-.timeline {
-	@include breakpoint-down(large) {
-		.one & {
-			display: none;
+		@include breakpoint(large) {
+			min-height: 100vh;
 		}
 	}
 }

@@ -11,11 +11,6 @@
 	min-height: 100vh;
 	margin: 0 auto;
 
-	@include breakpoint(large) {
-		padding-right: 0;
-		padding-left: 0;
-	}
-
 	&__item {
 		&:not(:last-child) {
 			margin-bottom: rem(40);
