@@ -48,12 +48,12 @@
 	&::before {
 		content: '';
 		min-width: 100vw;
-		min-height: 1000%;
-		position: absolute;
+		min-height: 100vh;
 		background-color: rgba(0, 0, 0, .5);
 
-		@include breakpoint(large) {
-			min-height: 100vh;
+		@include breakpoint-down(large) {
+			position: absolute;
+			min-height: 1000%;
 		}
 	}
 }

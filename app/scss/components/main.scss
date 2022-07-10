@@ -3,8 +3,10 @@
 // Contact
 .one {
 	.container {
-		position: relative;
-		margin: rem(50) 0;
+		@include breakpoint-down(large) {
+			position: relative;
+			margin: rem(50) 0;
+		}
 	}
 
 	.section {
