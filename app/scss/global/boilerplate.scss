@@ -12,14 +12,22 @@ html {
 
 body {
 	margin: 0;
+	overflow: hidden;
 	line-height: 1.3;
 	font-size: rem(25);
 	color: var(--white);
 	font-family: var(--font-body);
 	background-image: url('../images/background.webp');
 
-	@include breakpoint(large) {
-		overflow: hidden;
+	@include breakpoint-down(large) {
+		&, .links a {
+			font-size: rem(20);
+			overflow: visible;
+		}
+
+		.timeline, .features {
+			font-size: rem(15);
+		}
 	}
 }
 
@@ -69,8 +77,12 @@ body {
 }
 
 .subtitle {
-	font-size: rem(30);
+	font-size: rem(20);
 	margin-bottom: rem(10);
+
+	@include breakpoint(large) {
+		font-size: rem(30);
+	}
 
 	&--full {
 		margin-top: rem(10);

@@ -1,19 +1,23 @@
 @use '../util' as *;
 
 // Contact
-.section {
+.one {
+	.container {
+		position: relative;
+		margin: rem(50) 0;
+	}
 
-	.one & {
+	.section {
 		text-align: center;
-
+	
 		@include breakpoint(large) {
 			text-align: left;
 		}
-
+	
 		.social {
 			line-height: 1.6;
 			margin-top: rem(10);
-
+	
 			@include breakpoint(large) {
 				margin-top: rem(60);
 			}
@@ -120,9 +124,12 @@
 	align-items: stretch;
 	grid-template-columns: 1fr rem(2.5) 1fr;
 	padding: rem(40) 0;
+	margin: 0 rem(25);
 
 	@include breakpoint-down(large) {
-		font-size: rem(12.5);
+		.suptitle {
+			font-size: rem(12.5);
+		}
 
 		.subtitle {
 			font-size: rem(17.5);
@@ -131,11 +138,16 @@
 
 	&__component {
 		padding: rem(25);
-		margin: 0 rem(25);
+		margin-left: rem(25);
 		background: var(--light-gray);
 		box-shadow: 0 0 rem(5) var(--light-gray);
 		border-radius: rem(10);
 		max-width: rem(270);
+
+		&:nth-child(even) {
+			margin-right: rem(25);
+			margin-left: auto;
+		}
 	}
 
 	&__middle,
