@@ -2,7 +2,7 @@
 
 ## Hello [<img width="30" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif">](https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif) I'm Dmitry Labuzov
 
-[![Website](https://img.shields.io/website?label=thelabuzov.github.io/thelabuzov&url=https://thelabuzov.github.io/thelabuzov&style=for-the-badge)](https://thelabuzov.github.io/thelabuzov)
+[![Website](https://img.shields.io/website?label=thelabuzov.github.io&url=https://thelabuzov.github.io&style=for-the-badge)](https://thelabuzov.github.io)
 [![Twitter](https://img.shields.io/twitter/follow/thelabuzov?color=007ec6&label=twitter&logo=twitter&logoColor=fff&style=for-the-badge)](https://twitter.com/thelabuzov)
 [<img alt="PayPal" height="28" src="https://img.shields.io/badge/paypal-555?logo=paypal&style=for-the-badge">](https://paypal.me/thelabuzov)
 [<img alt="Ethereum" height="28" src="https://img.shields.io/badge/ethereum-555?logo=ethereum&style=for-the-badge">](https://blockchain.com/eth/address/0x1b10F474c1E870077708e5428A540a3623A11Fc5)
