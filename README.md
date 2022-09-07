@@ -33,6 +33,8 @@ Daily working with websites & writing about it 💛 I'm motivated member of comm
 ![Bootstrap](https://img.shields.io/badge/bootstrap-7952b3?style=flat-square&logo=bootstrap&logoColor=fff)<br>
 ![Pug](https://img.shields.io/badge/pug-a86454?style=flat-square&logo=pug&logoColor=fff)
 ![Git](https://img.shields.io/badge/git-f05032?style=flat-square&logo=git&logoColor=fff)
-![Npm](https://img.shields.io/badge/npm-cb3837?style=flat-square&logo=npm&logoColor=fff)
+![Npm](https://img.shields.io/badge/npm-cb3837?style=flat-square&logo=npm&logoColor=fff)<br>
+![WordPress](https://img.shields.io/badge/wordpress-21759b?style=flat-square&logo=wordpress&logoColor=fff)
+![BEM](https://img.shields.io/badge/bem-000?style=flat-square&logo=bem&logoColor=fff)
 
 </div>
