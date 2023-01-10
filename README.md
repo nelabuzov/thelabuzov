@@ -8,7 +8,7 @@
 [<img alt="Ethereum" height="28" src="https://img.shields.io/badge/ethereum-555?logo=ethereum&style=for-the-badge">](https://blockchain.com/eth/address/0x1b10F474c1E870077708e5428A540a3623A11Fc5)
 [<img alt="Bitcoin" height="28" src="https://img.shields.io/badge/bitcoin-555?logo=bitcoin&style=for-the-badge">](https://blockchain.com/btc/address/15bc5sopiHTdq9LG6iB5TWoRzpCsobwHxy)
 
-Daily working with websites & writing about it 💛 I'm motivated member of community, #100DaysOfCode 🔥 Follow for DEV sources
+Daily working with websites & writing about it ❤️ I'm motivated member of community, #100DaysOfCode 🔥 Follow for DEV sources
 
 ![Profile Banner](https://user-images.githubusercontent.com/87143407/174051245-b01da935-6f21-4487-8766-f8f6114bb1df.png)
 ![Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=thelabuzov&bg_color=282c34&color=e3be79&line=e3be79&point=df6d74&hide_border=true)
