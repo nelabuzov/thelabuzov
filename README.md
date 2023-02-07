@@ -18,7 +18,7 @@ Daily working with websites & writing about it ❤️ I'm motivated member of co
 [<img alt="Repo" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=thelabuzov&repo=complete-javascript-course&hide_border=true&theme=onedark">](https://github.com/thelabuzov/complete-javascript-course)
 <img align="left" alt="Top Langs" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thelabuzov&layout=compact&hide_border=true&theme=onedark">
 
-<p>Languages and icons:</p>
+<p>Languages and Tools:</p>
 
 ![HTML](https://img.shields.io/badge/html-e34f26?style=flat-square&logo=html5&logoColor=fff)
 ![CSS](https://img.shields.io/badge/css-1572b6?style=flat-square&logo=css3&logoColor=fff)
