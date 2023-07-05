@@ -12,8 +12,6 @@ Daily working with websites & writing about it ❤️ I'm motivated member of co
 ![Profile Banner](https://user-images.githubusercontent.com/87143407/174051245-b01da935-6f21-4487-8766-f8f6114bb1df.png)
 <img alt="Stats" width="49%" src="https://github-readme-stats.vercel.app/api?username=thelabuzov&show_icons=true&hide_border=true&theme=onedark">
 <img alt="Streak Stats" width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=thelabuzov&hide_border=true&theme=onedark">
-[<img alt="Repo" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=thelabuzov&repo=100-days-of-code&hide_border=true&theme=onedark">](https://github.com/thelabuzov/100-days-of-code)
-[<img alt="Repo" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=thelabuzov&repo=complete-javascript-course&hide_border=true&theme=onedark">](https://github.com/thelabuzov/complete-javascript-course)
 <img align="left" alt="Top Langs" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thelabuzov&layout=compact&hide_border=true&theme=onedark">
 
 <p>Languages and Tools:</p>
