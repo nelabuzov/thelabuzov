@@ -9,6 +9,5 @@
 
 Daily working with websites & writing about it ❤️ I'm motivated member of community, #100DaysOfCode 🔥 Follow for DEV sources
 
-![Profile Banner](https://user-images.githubusercontent.com/87143407/174051245-b01da935-6f21-4487-8766-f8f6114bb1df.png)
-<img align="left" alt="Stats" width="49%" src="https://github-readme-stats.vercel.app/api?username=thelabuzov&show_icons=true&hide_border=true&theme=onedark">
-<img alt="Top Langs" width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thelabuzov&layout=compact&hide_border=true&theme=onedark">
+<img alt="Stats" src="https://github-readme-stats.vercel.app/api?username=thelabuzov&show_icons=true&hide_border=true&theme=onedark">
+<img alt="Top Langs" width="35.2%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thelabuzov&layout=compact&hide_border=true&theme=onedark">
