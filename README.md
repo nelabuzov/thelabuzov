@@ -10,8 +10,6 @@
 Daily working with websites & writing about it ❤️ I'm motivated member of community, #100DaysOfCode 🔥 Follow for DEV sources
 
 ![Profile Banner](https://user-images.githubusercontent.com/87143407/174051245-b01da935-6f21-4487-8766-f8f6114bb1df.png)
-![Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=thelabuzov&bg_color=282c34&color=e3be79&line=e3be79&point=df6d74&hide_border=true)
-<img alt="Profile Trophy" width="100%" src="https://github-profile-trophy.vercel.app/?username=thelabuzov&no-frame=true&theme=onedark">
 <img alt="Stats" width="49%" src="https://github-readme-stats.vercel.app/api?username=thelabuzov&show_icons=true&hide_border=true&theme=onedark">
 <img alt="Streak Stats" width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=thelabuzov&hide_border=true&theme=onedark">
 [<img alt="Repo" width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=thelabuzov&repo=100-days-of-code&hide_border=true&theme=onedark">](https://github.com/thelabuzov/100-days-of-code)
